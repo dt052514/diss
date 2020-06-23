@@ -1,0 +1,38 @@
+\usepackage{booktabs}
+\usepackage[ style=chicago-authordate,
+	backend=bibtex,
+	natbib=true,
+	sorting=nyt,
+	doi=false,
+	isbn=false,
+	url=false,
+	eprint=false,
+	maxbibnames=100,
+	maxcitenames=2,
+	]{biblatex}
+	\AtEveryCitekey{\UseBibitemHook}
+\newbibmacro{string+doiurlisbn}[1]{%
+  \iffieldundef{doi}{%
+    \iffieldundef{url}{%
+      \iffieldundef{isbn}{%
+        \iffieldundef{issn}{%
+          #1%
+        }{%
+          \href{http://books.google.com/books?vid=ISSN\thefield{issn}}{#1}%
+        }%
+      }{%
+        \href{http://books.google.com/books?vid=ISBN\thefield{isbn}}{#1}%
+      }%
+    }{%
+      \href{\thefield{url}}{#1}%
+    }%
+  }{%
+    \href{http://dx.doi.org/\thefield{doi}}{#1}%
+  }%
+}
+\DeclareFieldFormat{title}{\usebibmacro{string+doiurlisbn}{\mkbibemph{#1}}}
+\DeclareFieldFormat[article,incollection]{title}%
+    {\usebibmacro{string+doiurlisbn}{\mkbibquote{#1}}}
+\usepackage{setspace}
+\doublespacing
+

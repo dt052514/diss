@@ -1,0 +1,16 @@
+bookdown::gitbook:
+  css: support/style.css
+  config:
+    sharing: null
+    toc:
+      before: |
+        <li><a href="./">SOEs as International Investors</li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+  includes:
+    in_header: "support/_header.html"
+bookdown::pdf_book:
+  includes:
+    in_header: support/preamble.tex
+  latex_engine: xelatex
+  keep_tex: no
