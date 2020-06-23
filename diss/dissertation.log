@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.23)  23 JUN 2020 01:49
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.23)  23 JUN 2020 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -644,46 +644,170 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 )) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
+) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen176
+\ar@mcellbox=\box54
+\extrarowheight=\dimen177
+\NC@list=\toks24
+\extratabsurround=\skip80
+\backup@length=\skip81
+\ar@cellbox=\box55
+) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip82
+\multirow@cntb=\count422
+\multirow@dima=\skip83
+\bigstrutjot=\dimen178
+) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen179
+\WF@size=\dimen180
+\c@WF@wrappedlines=\count423
+\WF@box=\box56
+\WF@everypar=\toks25
+Package: wrapfig 2003/01/31  v 3.6
+) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count424
+\float@exts=\toks26
+\float@box=\box57
+\@float@everytoks=\toks27
+\@floatcapt=\box58
+) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+(/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+(/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-\@quotelevel=\count422
-\@quotereset=\count423
+Package color Info: Driver file: xetex.def on input line 147.
+)
+\everycr=\toks28
+\minrowclearance=\skip84
+) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+(/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+(/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box59
+\sift@deathcycles=\count425
+\@vwid@loff=\dimen181
+\@vwid@roff=\dimen182
+)
+\c@taburow=\count426
+\tabu@nbcols=\count427
+\tabu@cnt=\count428
+\tabu@Xcol=\count429
+\tabu@alloc=\count430
+\tabu@nested=\count431
+\tabu@target=\dimen183
+\tabu@spreadtarget=\dimen184
+\tabu@naturalX=\dimen185
+\tabucolX=\dimen186
+\tabu@Xsum=\dimen187
+\extrarowdepth=\dimen188
+\abovetabulinesep=\dimen189
+\belowtabulinesep=\dimen190
+\tabustrutrule=\dimen191
+\tabu@thebody=\toks29
+\tabu@footnotes=\toks30
+\tabu@box=\box60
+\tabu@arstrutbox=\box61
+\tabu@hleads=\box62
+\tabu@vleads=\box63
+\tabu@cellskip=\skip85
+)
+(/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/threeparttable/threeparttable
+.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box64
+)
+(/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/threeparttablex/threeparttabl
+ex.sty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+(/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+(/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\TPTL@width=\skip86
+) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box65
+\UL@hyphenbox=\box66
+\UL@skip=\skip87
+\UL@hook=\toks31
+\UL@height=\dimen192
+\UL@pe=\count432
+\UL@pixel=\dimen193
+\ULC@box=\box67
+Package: ulem 2019/11/18
+\ULdepth=\dimen194
+) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen195
+\c@nlinenum=\count433
+\TeXr@lab=\toks32
+) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+\@quotelevel=\count434
+\@quotereset=\count435
 (./dissertation.aux)
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 111.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 125.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 111.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 125.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 111.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 125.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 111.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 125.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 111.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 125.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 111.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 125.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 111.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 125.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -712,7 +836,7 @@ pt=math;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 111.
+(Font)              scaled to size 10.95pt on input line 125.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -752,18 +876,18 @@ pt=math;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 111.
+(Font)              scaled to size 10.95pt on input line 125.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 111.
+(Font)              `operators' in the math version `normal' on input line 125.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 111.
+ line 125.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 111.
+(Font)              `operators' in the math version `bold' on input line 125.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 111.
+t line 125.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -851,15 +975,15 @@ t=math;language=dflt;mapping=tex-text;"
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 111.
+(Font)              `symbols' in the math version `normal' on input line 125.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 111.
+t line 125.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 111.
+(Font)              `symbols' in the math version `bold' on input line 125.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 111.
+t line 125.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -930,18 +1054,18 @@ pt=math;language=dflt;mapping=tex-text;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-11.
+25.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 111.
+t line 125.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 111
+(Font)              `largesymbols' in the math version `bold' on input line 125
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 111.
-\AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 111.
+t line 125.
+\AtBeginShipoutBox=\box68
+Package hyperref Info: Link coloring OFF on input line 125.
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -951,11 +1075,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ng.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count424
+\c@section@level=\count436
 )
-LaTeX Info: Redefining \ref on input line 111.
-LaTeX Info: Redefining \pageref on input line 111.
-LaTeX Info: Redefining \nameref on input line 111.
+LaTeX Info: Redefining \ref on input line 125.
+LaTeX Info: Redefining \pageref on input line 125.
+LaTeX Info: Redefining \nameref on input line 125.
 (./dissertation.out) (./dissertation.out)
 \@outlinefile=\write4
 \openout4 = `dissertation.out'.
@@ -1011,37 +1135,37 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'dissertation.bbl' found.
 (./dissertation.bbl)
-Package biblatex Info: Reference section=0 on input line 111.
-Package biblatex Info: Reference segment=0 on input line 111.
+Package biblatex Info: Reference section=0 on input line 125.
+Package biblatex Info: Reference segment=0 on input line 125.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 113.
+(Font)              scaled to size 12.0pt on input line 127.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 113.
+(Font)              scaled to size 8.0pt on input line 127.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 113.
+(Font)              scaled to size 6.0pt on input line 127.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-13.
+27.
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0011pt on input line 113.
+(Font)              scaled to size 12.0011pt on input line 127.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00073pt on input line 113.
+(Font)              scaled to size 8.00073pt on input line 127.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 113.
+(Font)              scaled to size 6.00055pt on input line 127.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 113.
+(Font)              scaled to size 11.99872pt on input line 127.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 113.
+(Font)              scaled to size 7.99915pt on input line 127.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 113.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 113
+(Font)              scaled to size 5.99936pt on input line 127.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 127
 .
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 113
+LaTeX Font Info:    Trying to load font information for U+msb on input line 127
 .
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1050,33 +1174,244 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [2
 
-] (./dissertation.toc)
+] (./dissertation.toc
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.665pt on input line 7.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.475pt on input line 7.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.95099pt on input line 7.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.66568pt on input line 7.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.4755pt on input line 7.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.94882pt on input line 7.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.66417pt on input line 7.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.47441pt on input line 7.
+)
 \tf@toc=\write5
 \openout5 = `dissertation.toc'.
 
 [3] [4
 
-] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
-[6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+] [5] [6]
+Chapter 1.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 158.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 158.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 9.00082pt on input line 158.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 158.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.99904pt on input line 158.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 158.
+[7
+
+] [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[9] [10] [11] [12] [13] [14] [15] [16]
+
+LaTeX Warning: Reference `paper2' on page 17 undefined on input line 218.
+
+[17] [18]
+File: fig/typology.png Graphic file (type bmp)
+<fig/typology.png>
+[19] [20]
+
+LaTeX Warning: Reference `appa' on page 21 undefined on input line 253.
+
+[21] [22] [23] [24]
+Overfull \hbox (79.66115pt too wide) in paragraph at lines 322--322
+[]\TU/lmtt/m/n/10.95 ##    shortname subsidiary relationship country subsidiary
+_coun~ Type  Status stake[] 
+ []
+
+
+Overfull \hbox (79.66115pt too wide) in paragraph at lines 322--322
+[]\TU/lmtt/m/n/10.95 ##    <chr>     <chr>      <chr>        <chr>   <chr>     
+       <chr> <chr>  <chr>[] 
+ []
+
+
+Overfull \hbox (79.66115pt too wide) in paragraph at lines 322--322
+[]\TU/lmtt/m/n/10.95 ##  1 ADNOC     Abu Dhabi~ Current Sub~ United~ United Ara
+b Emi~ NOC   domes~ Majo~[] 
+ []
+
+
+Overfull \hbox (79.66115pt too wide) in paragraph at lines 322--322
+[]\TU/lmtt/m/n/10.95 ##  2 ADNOC     Abu Dhabi~ Current Sub~ United~ United Ara
+b Emi~ NOC   domes~ Majo~[] 
+ []
+
+
+Overfull \hbox (79.66115pt too wide) in paragraph at lines 322--322
+[]\TU/lmtt/m/n/10.95 ##  3 ADNOC     Abu Dhabi~ Current Sub~ United~ United Ara
+b Emi~ NOC   domes~ Majo~[] 
+ []
+
+
+Overfull \hbox (79.66115pt too wide) in paragraph at lines 322--322
+[]\TU/lmtt/m/n/10.95 ##  4 ADNOC     Abu Dhabi~ Current Sub~ United~ United Ara
+b Emi~ NOC   domes~ Majo~[] 
+ []
+
+
+Overfull \hbox (79.66115pt too wide) in paragraph at lines 322--322
+[]\TU/lmtt/m/n/10.95 ##  5 ADNOC     Abu Dhabi~ Current Sub~ United~ United Ara
+b Emi~ NOC   domes~ Majo~[] 
+ []
+
+
+Overfull \hbox (79.66115pt too wide) in paragraph at lines 322--322
+[]\TU/lmtt/m/n/10.95 ##  6 ADNOC     Abu Dhabi~ Current Inv~ United~ United Ara
+b Emi~ NOC   domes~ Mino~[] 
+ []
+
+
+Overfull \hbox (79.66115pt too wide) in paragraph at lines 322--322
+[]\TU/lmtt/m/n/10.95 ##  7 ADNOC     Abu Dhabi~ Current Sub~ United~ United Ara
+b Emi~ NOC   domes~ Unkn~[] 
+ []
+
+[25]
+Overfull \hbox (79.66115pt too wide) in paragraph at lines 322--322
+[]\TU/lmtt/m/n/10.95 ##  8 ADNOC     Abu Dhabi~ Current Sub~ United~ United Ara
+b Emi~ NOC   domes~ Majo~[] 
+ []
+
+
+Overfull \hbox (79.66115pt too wide) in paragraph at lines 322--322
+[]\TU/lmtt/m/n/10.95 ##  9 ADNOC     Abu Dhabi~ Current Sub~ United~ United Ara
+b Emi~ NOC   domes~ Mino~[] 
+ []
+
+
+Overfull \hbox (79.66115pt too wide) in paragraph at lines 322--322
+[]\TU/lmtt/m/n/10.95 ## 10 ADNOC     Borouge P~ Current Sub~ United~ Singapore 
+       NOC   inter~ Majo~[] 
+ []
+
+
+LaTeX Warning: Reference `fig:boxplot1' on page 26 undefined on input line 342.
+
+
+File: dissertation_files/figure-latex/distributions-1.pdf Graphic file (type pd
+f)
+<use dissertation_files/figure-latex/distributions-1.pdf>
+[26]
+Overfull \hbox (148.64613pt too wide) in paragraph at lines 357--357
+[]\TU/lmtt/m/n/10.95 ## `summarise()` regrouping output by 'shortname', 'countr
+y' (override with `.groups` argument)[] 
+ []
+
+[27] [28] [29]
+File: dissertation_files/figure-latex/scatter01-1.pdf Graphic file (type pdf)
+<use dissertation_files/figure-latex/scatter01-1.pdf>
+
+LaTeX Warning: Reference `fig:t6map' on page 30 undefined on input line 418.
+
+[30]
+File: dissertation_files/figure-latex/t6map-1.pdf Graphic file (type pdf)
+<use dissertation_files/figure-latex/t6map-1.pdf>
+[31] [32] [33] [34] [35]
+File: fig/reg_results_01.png Graphic file (type bmp)
+<fig/reg_results_01.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[36] [37] [38]
+Underfull \hbox (badness 10000) in paragraph at lines 517--519
+[][] [][] [][][][][][][][] [] [][][][][][][][] [][] [][][][] [] [][][][][][] []
+[] [][][] [][] [][][][][][][][][] [] [][][][][] [][] [][][][][] [][] [][][] [][
+] [][][][][] [][] [][][][][][] [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--525
+[][][][][] [] [][][][][][] [] [][][] [] [][][][][] [] [][] [] [][][][][] [] [][
+][] [] [][][][][][][][][][][][][][][] [] [][][][][][] [] [][][][][][] []
+ []
+
+
+Overfull \hbox (0.37234pt too wide) in paragraph at lines 523--525
+[][][][][] [] [][][][][][][][][][][][] [] [][][][][][][][][][][][][][] [] [][][
+][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+[39] [40]
+Underfull \hbox (badness 2922) in paragraph at lines 565--567
+\TU/lmr/m/n/10.95 UK: Cambridge University Press. []$[][][][] [] [] [] [][][][]
+[] [] [][][][][][] [] [][] [] [][][][][] [] [][] [] [][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 565--567
+[][][] [] [][][][][][] [] [][][][][][][][] [] [][][][][][] [] [][][][][][] [] [
+][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][] [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 565--567
+[][][][][] [] [][][][][][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][
+][][][] [] [][][][][][][][][][] [] [] [] [][][][][][][][][][][][] []
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 577--579
+[] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][][] []
+ [][][][][][][][] [][] [][][][][] [][] [][][][][][][][][][] [][] [][][][][][][]
+[][] [][] [][][][] [][]
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 592--594
+\TU/lmr/m/n/10.95 UK: Cambridge University Press. []$[][][][] [] [] [] [][][][]
+[] [] [][][][][][] [] [][] [] [][][][][] [] [][] [] [][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--594
+[][][] [] [][][][][][] [] [][][][][][][][] [] [][][][][][] [] [][][][][][] [] [
+][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][] [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--594
+[][][][][] [] [][][][][][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][
+][][][] [] [][][][][][][][][][] [] [] [] [][][][][][][][][][][][] []
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 595.
+[42]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 595.
 (./dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 136.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 595.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 595.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: EFDEC1F07EBF5718423996A5123D86A7;84.
+(rerunfilecheck)             Checksum: 30C9AC6F761546F8E5A89457EE7FE3A4;1205.
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'dissertation.run.xml'.
 \openout1 = `dissertation.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 595.
  ) 
 Here is how much of TeX's memory you used:
- 24757 strings out of 481269
- 461886 string characters out of 5925377
- 1144776 words of memory out of 5000000
- 42020 multiletter control sequences out of 15000+600000
- 535904 words of font info for 54 fonts, out of 8000000 for 9000
+ 26711 strings out of 481269
+ 490920 string characters out of 5925377
+ 1194788 words of memory out of 5000000
+ 43858 multiletter control sequences out of 15000+600000
+ 540861 words of font info for 95 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 53i,6n,118p,1025b,1269s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,9n,118p,2721b,1269s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (6 pages).
+Output written on dissertation.pdf (42 pages).
