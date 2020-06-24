@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.23)  24 JUN 2020 00:31
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.23)  24 JUN 2020 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1247,23 +1247,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `fig:boxplot1' on page 26 undefined on input line 334.
 
 
-File: dissertation_files/figure-latex/distributions-1.pdf Graphic file (type pd
-f)
-<use dissertation_files/figure-latex/distributions-1.pdf>
+File: paper1fig/distributions-1.pdf Graphic file (type pdf)
+<use paper1fig/distributions-1.pdf>
 [26] [27] [28] [29]
-File: dissertation_files/figure-latex/scatter01-1.pdf Graphic file (type pdf)
-<use dissertation_files/figure-latex/scatter01-1.pdf>
+File: paper1fig/scatter01-1.pdf Graphic file (type pdf)
+<use paper1fig/scatter01-1.pdf>
 
 LaTeX Warning: Reference `fig:t6map' on page 30 undefined on input line 406.
 
-File: dissertation_files/figure-latex/t6map-1.pdf Graphic file (type pdf)
-<use dissertation_files/figure-latex/t6map-1.pdf>
+File: paper1fig/t6map-1.pdf Graphic file (type pdf)
+<use paper1fig/t6map-1.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 [30] [31] [32] [33] [34]
 File: fig/reg_results_01.png Graphic file (type bmp)
 <fig/reg_results_01.png>
-
-Underfull \vbox (badness 4303) has occurred while \output is active []
-
 [35] [36] [37]
 Underfull \hbox (badness 10000) in paragraph at lines 505--507
 [][] [][] [][][][][][][][] [] [][][][][][][][] [][] [][][][] [] [][][][][][] []
@@ -1344,8 +1343,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 583.
  ) 
 Here is how much of TeX's memory you used:
  26708 strings out of 481269
- 490865 string characters out of 5925377
- 1191788 words of memory out of 5000000
+ 490447 string characters out of 5925377
+ 1191950 words of memory out of 5000000
  43857 multiletter control sequences out of 15000+600000
  540853 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

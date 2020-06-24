@@ -1,5 +1,5 @@
 --- 
-title: "National Oil Companies as International Investors"
+title: "The Political Economy of National Oil Companies as International Investors"
 author: "David Tingle"
 date: "Last Edited: `r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -27,44 +27,18 @@ National Oil Companies (NOCs) were initially built to give states some degree of
 
 In addressing these questions together as part of a unified project, this research sheds light on a set of integral but under-theorized institutions, NOCs, at the centre of contemporary state capitalism and the political economy of resource wealth.
 
-<br><br>
+```{r global_options_pdf, include=F, eval=T, echo=F, message=F, warning=F}
+knitr::opts_chunk$set(fig.path='finalfig/',
+                      echo=FALSE, 
+                      warning=FALSE, 
+                      message=FALSE)
+```
 
-```{r, fig.height = 4, fig.width = 8, dpi=200, fig.align= 'center', echo=F,message=F,warning=F,cache=T, eval=F}
-
-library(tidyverse)
-load("data/out/etl_results.RData")
-
-subsidiary_dataset_FINAL %>%
-  filter(Status == "international" & Type == "NOC") %>%
-  select(shortname, country, subsidiary_country,
-         lat, lon, lat.y, lon.y) %>%
-  group_by(shortname, subsidiary_country) %>% 
-  summarize(n_subs = n(),
-            lat = max(lat),
-            lon = max(lon),
-            lat.y = max(lat.y),
-            lon.y = max(lon.y)) %>% 
-  arrange(-n_subs) %>%
-  group_by(shortname) %>%
-  mutate(tot_n = sum(n_subs)) %>% 
-  filter(shortname %in% c("Statoil",  "Petronas", "Sonangol",
-                          "Petrobras", "OOC", "Gazprom",
-                          "Saudi Aramco", "Eni", "SOCAR")) %>%
-  na.omit() %>% 
-  ggplot() +
-  borders("world", colour = "white", fill = "seashell2") +
-  theme_void() +
-  coord_cartesian(ylim = c(-50, 80)) +
-  geom_curve(aes(x = lon, y = lat,
-                 xend = lon.y, yend = lat.y,
-                 color = n_subs),
-             curvature = .0) +
-  geom_point(aes(lon.y, lat.y, color = n_subs)) +
-  geom_point(aes(lon, lat)) +
-  facet_wrap(~shortname) +
-  scale_color_continuous(low = "grey70", high = "tomato") +
-  theme(legend.position="none",
-        legend.title = element_blank())
+```{r global_options_gitbook, include=F, eval=T, echo=F, message=F, warning=F}
+knitr::opts_chunk$set(fig.path='finalfig/',
+                      echo=TRUE, 
+                      warning=FALSE, 
+                      message=FALSE)
 ```
 
 
