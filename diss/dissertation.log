@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.23)  24 JUN 2020 15:19
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.23)  24 JUN 2020 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1225,11 +1225,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [14] [15]
 Underfull \vbox (badness 1038) has occurred while \output is active []
 
-[16] [17]
-
-LaTeX Warning: Reference `paper2' on page 18 undefined on input line 227.
-
-[18] [19]
+[16] [17] [18] [19]
 File: fig/typology.png Graphic file (type bmp)
 <fig/typology.png>
 [20]
@@ -1247,107 +1243,131 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Reference `fig:boxplot1' on page 26 undefined on input line 334.
 
 
-File: paper1fig/distributions-1.pdf Graphic file (type pdf)
-<use paper1fig/distributions-1.pdf>
+File: finalfig/distributions-1.pdf Graphic file (type pdf)
+<use finalfig/distributions-1.pdf>
 [26] [27] [28] [29]
-File: paper1fig/scatter01-1.pdf Graphic file (type pdf)
-<use paper1fig/scatter01-1.pdf>
+File: finalfig/scatter01-1.pdf Graphic file (type pdf)
+<use finalfig/scatter01-1.pdf>
 
 LaTeX Warning: Reference `fig:t6map' on page 30 undefined on input line 406.
 
-File: paper1fig/t6map-1.pdf Graphic file (type pdf)
-<use paper1fig/t6map-1.pdf>
+File: finalfig/t6map-1.pdf Graphic file (type pdf)
+<use finalfig/t6map-1.pdf>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [30] [31] [32] [33] [34]
 File: fig/reg_results_01.png Graphic file (type bmp)
 <fig/reg_results_01.png>
-[35] [36] [37]
-Underfull \hbox (badness 10000) in paragraph at lines 505--507
+[35] [36]
+Chapter 2.
+[37
+
+]
+File: finalfig/sonanNNPC-1.pdf Graphic file (type pdf)
+<use finalfig/sonanNNPC-1.pdf>
+
+Underfull \vbox (badness 1946) has occurred while \output is active []
+
+[38] [39]
+
+LaTeX Warning: Reference `conclusion02' on page 40 undefined on input line 488.
+
+
+[40] [41] [42] [43] [44] [45] [46]
+Underfull \vbox (badness 1038) has occurred while \output is active []
+
+[47]
+File: fig/basic_model_2.png Graphic file (type bmp)
+<fig/basic_model_2.png>
+[48] [49]
+File: fig/full_model.png Graphic file (type bmp)
+<fig/full_model.png>
+[50] [51] [52] [53] [54] [55] [56]
+Underfull \hbox (badness 10000) in paragraph at lines 729--731
 [][] [][] [][][][][][][][] [] [][][][][][][][] [][] [][][][] [] [][][][][][] []
 [] [][][] [][] [][][][][][][][][] [] [][][][][] [][] [][][][][] [][] [][][] [][
 ] [][][][][] [][] [][][][][][] [][]
  []
 
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 511--513
+
+Underfull \hbox (badness 10000) in paragraph at lines 738--740
 [][][][][] [] [][][][][][] [] [][][] [] [][][][][] [] [][] [] [][][][][] [] [][
 ][] [] [][][][][][][][][][][][][][][] [] [][][][][][] [] [][][][][][] []
  []
 
 
-Overfull \hbox (0.37234pt too wide) in paragraph at lines 511--513
+Overfull \hbox (0.37234pt too wide) in paragraph at lines 738--740
 [][][][][] [] [][][][][][][][][][][][] [] [][][][][][][][][][][][][][] [] [][][
 ][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[39] [40]
-Underfull \hbox (badness 2922) in paragraph at lines 553--555
+[57] [58]
+Underfull \hbox (badness 2922) in paragraph at lines 786--788
 \TU/lmr/m/n/10.95 UK: Cambridge University Press. []$[][][][] [] [] [] [][][][]
 [] [] [][][][][][] [] [][] [] [][][][][] [] [][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--555
+Underfull \hbox (badness 10000) in paragraph at lines 786--788
 [][][] [] [][][][][][] [] [][][][][][][][] [] [][][][][][] [] [][][][][][] [] [
 ][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--555
+Underfull \hbox (badness 10000) in paragraph at lines 786--788
 [][][][][] [] [][][][][][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][
 ][][][] [] [][][][][][][][][][] [] [] [] [][][][][][][][][][][][] []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 565--567
+[59] [60]
+Underfull \hbox (badness 10000) in paragraph at lines 819--821
 [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][][] []
  [][][][][][][][] [][] [][][][][] [][] [][][][][][][][][][] [][] [][][][][][][]
 [][] [][] [][][][] [][]
  []
 
-[41]
-Underfull \hbox (badness 2922) in paragraph at lines 580--582
+
+Underfull \hbox (badness 2922) in paragraph at lines 834--836
 \TU/lmr/m/n/10.95 UK: Cambridge University Press. []$[][][][] [] [] [] [][][][]
 [] [] [][][][][][] [] [][] [] [][][][][] [] [][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--582
+Underfull \hbox (badness 10000) in paragraph at lines 834--836
 [][][] [] [][][][][][] [] [][][][][][][][] [] [][][][][][] [] [][][][][][] [] [
 ][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--582
+Underfull \hbox (badness 10000) in paragraph at lines 834--836
 [][][][][] [] [][][][][][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][
 ][][][] [] [][][][][][][][][][] [] [] [] [][][][][][][][][][][][] []
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 583.
-[42]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 583.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 837.
+[61] [62]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 837.
 (./dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 583.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 583.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 837.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 837.
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 30C9AC6F761546F8E5A89457EE7FE3A4;1205.
+(rerunfilecheck)             Checksum: C2B47AFC583BE089C0A08850BA03B6CE;2377.
 
 LaTeX Warning: There were undefined references.
 
 Package logreq Info: Writing requests to 'dissertation.run.xml'.
 \openout1 = `dissertation.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 583.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 837.
  ) 
 Here is how much of TeX's memory you used:
- 26708 strings out of 481269
- 490447 string characters out of 5925377
- 1191950 words of memory out of 5000000
- 43857 multiletter control sequences out of 15000+600000
- 540853 words of font info for 94 fonts, out of 8000000 for 9000
+ 26755 strings out of 481269
+ 491371 string characters out of 5925377
+ 1194069 words of memory out of 5000000
+ 43899 multiletter control sequences out of 15000+600000
+ 540861 words of font info for 95 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,9n,118p,2722b,1269s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (42 pages).
+Output written on dissertation.pdf (62 pages).
