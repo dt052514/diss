@@ -1,0 +1,1393 @@
+% File 'gusample.tex' -- Mark Maloof, Michael A. Covington, Isidor Ruderfer
+% (Revised 15 December 2010)
+% This is an example of how to format a thesis or dissertation using LaTeX 2e
+% with 'guthesis.sty' VERSION 3.4 OR LATER.
+
+\documentclass[12pt]{report}
+
+\usepackage{url}
+\usepackage[numbers,sort]{natbib}
+\usepackage[dvips]{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{algorithm}
+%\usepackage{algorithmic}
+
+% If there are any other \usepackage commands, put them here.
+
+\usepackage{guthesis} % Must be the last package
+
+\newtheorem{theorem}{Theorem}[section]
+\newenvironment{proof}[0]{\textit{Proof.}}{}
+\newcommand{\qed}{\hfill $\Box$}
+
+% To comment out multiple lines of text.
+\long\def\comment#1{}
+
+\title{Example of a Thesis \\
+       Formatted with LaTeX \\
+       Using the Georgetown University \\
+       Style Macro Package, Version \guthesisversion}
+
+\author{Marcus A. Maloof}
+
+\previousdegree{B.S.}
+
+\thisdegree{Master of Science}  % or Doctor of Philosophy, etc.
+
+\thisdiscipline{Computer Science}
+
+\thesistype{Thesis}     % or Dissertation
+
+% defense or approval date, not today's date...
+\thesisday{15}
+\thesismonth{December}
+\thesisyear{2010}
+
+\professor{Abraham Baldwin}
+%\secondprofessor{Alonzo Church}   % Only if you have 2 major professors!
+
+\fulltitle{Example of a Thesis Formatted with LaTeX Using the Georgetown
+           University Style Macro Package, Version \gustyversion}
+
+\indexwords{Word~processing, Computer~typesetting, Computer~graphics,
+            Style~sheets, Typography, Dissertations, Theses~(academic)}
+
+\dean{Timothy A.\ Barbari}
+
+\memberi{Benjamin Franklin}
+\memberii{Isaac Newton}
+% Use \memberiii, \memberiv, \memberv for up to 3 more members if needed.
+
+\begin{document}
+
+\pagenumbering{roman}
+
+\maketitle    % Creates title page, copyright page if any, and approval page.
+
+\begin{abstract}
+This is the abstract, a brief summary of the contents of the entire thesis.
+It is limited to 350 words.
+
+The abstract page(s) are not numbered and are not necessarily included
+in the bound copies.  Likewise, the signature page is not counted in
+page numbering because not all copies contain it.
+
+Throughout this sample thesis, {\bf please note
+that the layout obtained with \LaTeX\ is not meant to be a
+perfect duplicate of the Microsoft Word examples in the \emph{Graduate
+School Style Manual.}}  \LaTeX\ has additional typographic tools at its
+disposal, such as {\sc small capitals} and various subtle adjustments
+of spacing, which are used by the Georgetown \LaTeX\ style sheet in
+accordance with the standard practices of the book-printing industry.
+
+The index words at the bottom of the abstract should be chosen carefully,
+preferably with the help of one or two of your colleagues.
+They are the words by which people will find your thesis when searching
+the scientific literature.
+If you want to get credit for your ideas, be sure to choose a good set of
+index words so that people doing related work will know about yours.
+\end{abstract}
+
+
+\chapter*{Dedication}
+
+The Dedication is optional, but if it is included, it should have
+a roman numeral page number but not be included in the table of
+contents.  To achieve that, we declare it as a \verb"\chapter*" in \LaTeX.
+
+
+\pseudochapter{Acknowledgments}
+
+In a real thesis, this section would contain acknowledgments such
+as, ``This work was funded by National Science Foundation Grant
+Number AAA-00-00000 (Benjamin Franklin, Principal Investigator),''
+and ``I would like to thank John Doe for helping me proofread my
+thesis and Mary Roe for drawing my graphs.''
+
+The acknowledgments are included in the table of contents but do
+not have a chapter number.  To achieve that, we
+declare them to be a \verb"\pseudochapter" (which is defined only in
+\verb"guthesis.sty").
+
+I (Mark Maloof) would like to thank Michael Covington for developing
+this \LaTeX\ style sheet for the University of Georgia.
+Zachary Hunter deserves special thanks for revising the UGA style
+file to work with the new version of \LaTeX\ (2e) as well as the
+previous version (2.09).
+The revisions in
+Version 3.0 of \verb"guthesis.sty" are
+largely the work of Isidor Ruderfer.
+Other credits appear in the style sheet itself.
+
+\pseudochapter{Preface}
+
+If your thesis has a preface, this is where it goes.
+A preface is not an introduction, and most theses do not need them.
+
+
+\tableofcontents
+
+\listoffigures  % Optional - Omit this line if you don't want a list of figures.
+\listoftables   % Optional - Omit this line if you don't want a list of tables.
+
+\newpage
+
+\pagenumbering{arabic}  % Ordinary pages have Arabic numerals.
+
+\chapter{What \LaTeX\ is all about}
+
+This document is an example of how to format a thesis or dissertation
+using \LaTeX\  and get results acceptable at Georgetown University.
+
+\LaTeX\ (with its parent \TeX)
+has two major advantages for academic use.  First, to a remarkable
+degree it makes design decisions automatically.  The author supplies
+only the words of a text, and \LaTeX\ places them on the page in an
+aesthetic manner, avoiding rivers and awkward breaks.  In this respect
+LaTeX is like a very intelligent typist or typesetter.
+
+Second, \LaTeX\ can typeset complex mathematical formulas such as
+\[
+\sum_{i=1}^{\infty} x^{y+z} = \frac{p+q+r}{s+t+u+v}
+\]
+both displayed (as shown above) and in the text, as in
+$\sum_{i=1}^{\infty} x^{y+z} = \frac{p+q+r}{s+t+u+v}$.
+This makes \TeX\ and \LaTeX\ indispensable for mathematicians, physicists,
+and the like.
+
+LaTeX also has built--in formats for other kinds of displayed material
+such as verse,
+\begin{verse}
+Freude, sch\"{o}ne G\"{o}tterfunken  \\
+Tochter aus Elysium,                 \\
+Wir betreten, feuertrunken,          \\
+Himmlische, dein Heiligum!          \\
+Deine Zauber binden wieder            \\
+Was der Mode streng geteilt\dots
+\end{verse}
+and direct quotations:
+\begin{quote}
+The society that scorns excellence in plumbing, because plumbing is a
+humble activity, and tolerates shoddiness in philosophy, because
+philosophy is an exalted activity, will have neither good plumbing nor
+good philosophy.  Neither its pipes nor its theories will hold water.\\
+\hspace*{\fill} --- John Gardner, {\em Excellence}
+\end{quote}
+If you wish, quotes and other displayed material can be single--spaced;
+here is an example of how that is achieved:
+\begin{verse}
+\begin{singlespace}
+Yes, I wrote ``The Purple Cow.'' \\
+I'm sorry now I wrote it. \\
+But I can tell you anyhow \\
+I'll kill you if you quote it! \\
+\hfill --- Anonymous?
+\end{singlespace}
+\end{verse}
+Well, maybe it's not as anonymous as it looks.
+
+Computer scientists use LaTeX's ``verbatim'' format to display portions
+of computer programs in text, like this:
+\begin{verbatim}
+1   GO TO 2
+2   GO TO 1
+3   PRINT "THIS STATEMENT WILL NEVER EXECUTE"
+4   END
+\end{verbatim}
+There you have it.%
+\footnote{This is a footnote. Notice that footnotes are single--spaced
+even though the text is double--spaced. Long footnotes are discouraged;
+either make important points in the text or leave them out.}
+
+Whenever you quote parts of a computer program in English text, they
+should be set off by using typewriter type.  The \verb"PRINT" statement
+in the program above will never execute because the \verb"GO TO"
+statement above it keeps execution from reaching it.
+
+
+
+\chapter{Five Important Notes}
+
+\section{\LaTeX\ is not a typewriter --- nor an ordinary word processor}
+
+\emph{The format that you get with \LaTeX\ is more elegant
+than the simpler format in the Graduate School style manual and is not
+intended to match it perfectly.}
+
+\LaTeX\ makes available to you \emph{all} of the tools of fine book printing.
+For example, \LaTeX\ has more degrees of
+vertical spacing available than other word processors do, and it uses them
+effectively.  Likewise, \LaTeX\ provides {\sc Small Capitals} for situations
+where other software would only provide ALL CAPITALS.
+
+The format produced by \verb"guthesis.sty" has been reviewed by the Graduate School.
+If your thesis fails the format check, make sure you have followed the
+instructions for \verb"guthesis.sty" (contained in the file \verb"gusample.tex")
+and the instructions for \LaTeX.
+
+\section{You can't do without the book!}
+
+\emph{You are not expected to be able to use \LaTeX\ without a manual.}
+Don't even try --- you'll waste a lot of time.
+The definitive manual for \LaTeX\ is:
+\begin{quote}
+Lamport, Leslie (1994) \emph{\LaTeX: A Document Preparation System.}
+2nd ed.
+Reading, MA: Addison-Wesley.
+\end{quote}
+Alternatively, there is a good manual available on line whose author is
+named Oetiker.
+There are several versions.  Use a search engine to search for
+``LaTeX Oetiker'' and you'll find it.
+
+\section{The {\tt guthesis.sty} style sheet adds to \LaTeX\ but does not replace it}
+
+``How do I do so-and-so in \verb"guthesis.sty"?''  Almost always the same way as
+in plain \LaTeX.
+The Georgetown University style sheet, called \verb"guthesis.sty", adds features
+to \LaTeX; it does not take away what is already there.
+
+
+\section{Ragged right margins are optional}
+
+{\raggedright
+\parindent 0.25in
+This section is typeset in ``ragged right'' format, in which \LaTeX\ has
+been told not to force a straight right margin.
+
+``Ragged right'' is preferable if your thesis contains a large number of
+words likely to be hyphenated incorrectly, formulas, web addresses, or
+the like.  To get it, put the two lines
+\begin{verbatim}
+\raggedright
+\parindent 0.25pt
+\end{verbatim}
+anywhere after the {\tt documentclass} command and before
+\verb"\begin{document}".
+
+You can also reduce the amount of hyphenation, without eliminating it
+totally, by following the instructions in the \LaTeX\ manual.
+} % raggedright
+
+\section{Please let \LaTeX\ do the layout...}
+
+Please do not use \verb"\vspace", \verb"\hspace", and other \TeX\ commands
+that specify the precise location or spacing of items on the page.
+Leave the layout to \LaTeX\ and \verb"guthesis.sty".
+Otherwise, very ugly things can happen.
+
+Your thesis is like a volume in a series.
+It should look like the other theses and dissertations that were typeset
+using the same technology.
+Just as different volumes of the \emph{Encyclopaedia Britannica} have exactly
+the same margins and typography, so should different theses from the same
+university, as far as technology permits.
+
+
+\section{Please use floating figures and tables...}
+
+Please use the \verb"figure" and \verb"table" environments for your figures
+and tables.
+A picture or table should not interrupt the text the way a mathematical
+formula does.
+Instead, it should ``float'' to the nearest convenient location---which
+\LaTeX\ will take care of automatically---and should be identified by
+number.
+
+
+
+\chapter{Frequently Asked Questions About Typing Georgetown Theses with
+\LaTeX\ and {\tt guthesis.sty}}
+
+\section{\LaTeX\ itself}
+
+\subsection{What is \LaTeX?}
+
+\LaTeX, by Leslie Lamport, is an extension of \TeX, the computer typesetting
+system designed by Donald Knuth.  This software system is used to typeset
+books, journals, papers, and theses in the mathematical sciences.
+Knuth and Lamport had two goals in designing it:
+\begin{itemize}
+\item To use the computer to equal the quality of the best conventional
+typesetting.
+No longer does ``word processing'' mean ``a poor substitute for real
+printing.''
+\item To separate the jobs of the \emph{author} and the \emph{typesetter.}
+\end{itemize}
+Other word processors turn the screen into a blank piece of paper and let
+you type on it.  \LaTeX\ is not your \emph{typewriter,} it's your
+\emph{typist.}  For example, to mark the beginning of a chapter, you
+type something like this:
+\begin{verbatim}
+\chapter{Literature Review}
+\end{verbatim}
+and \LaTeX\ automatically determines what a chapter heading should look like.
+It does this by consulting a \emph{style sheet.}  You do not have to worry
+about whether you've hit Enter the same number of times at the beginning of
+each chapter, or whether all the chapter headings are centered and the
+margins are correct.  That's the (automated) typist's job.
+
+\subsection{How is ``\LaTeX'' pronounced?}
+
+The X in \TeX\ is actually a Greek chi, with the sound of \emph{ch} in
+Scottish \emph{loch} or German \emph{ach}.  Thus, \TeX\ is pronounced
+``tekh.''  It is short for Greek \emph{tekhn\={e}} ``art, craft.''
+
+\LaTeX\ is pronounced \emph``lah-tekh'' in the Northeast, \emph``lay-tekh''
+in England and the South, and several different ways in the West.
+
+\subsection{What's it like to run \LaTeX?}
+
+\LaTeX\ is \emph{not} a single integrated piece of software.  It has several
+parts.  The normal process for typing and printing a paper is as follows.
+On finding an error or discovering that a change is needed, you can go back
+to any earlier step at any time.
+\begin{enumerate}
+\item Use a text editor (Windows Notepad or whatever text editor you like)
+to type your document on a file whose name ends in {\.tex}.
+\item Go to a command prompt and run {\tt latex} to create a {\tt .dvi} file.
+\item Optionally, preview the {\tt .dvi} file on-screen.  Some of us skip
+this step.
+\item Run {\tt dvipdf} to convert the {\tt .dvi} file to PDF.
+\item Use Adobe Reader to view the PDF file and print it, if desired.
+\end{enumerate}
+
+\subsection{Who benefits the most from using \LaTeX?}
+
+Those who need to typeset mathematical formulas or computer programs;
+those whose theses are likely to be published
+by a book publisher; and those who plan to submit their theses electronically.
+
+\subsection{Who should \emph{not} use \LaTeX?}
+
+If you consider yourself a ``computer dummy'' and can use only the simplest
+software, or if you do not have the time or patience to learn a new set of
+technical skills, you won't like \LaTeX.  On the other hand, you probably
+will not type your thesis correctly with a conventional word processor
+either.  (Let's face it, typing a thesis correctly is a technical challenge,
+no matter what software you do it with!)  You should hire a typist.
+
+\section{\LaTeX\ versions}
+
+\subsection{What are Mik\TeX, em\TeX, te\TeX, etc.?}
+
+These are implementations of \LaTeX\ for particular computers, incorporating
+Knuth and Lamport's original computer programs plus various tools to make
+them easier to use or more versatile.
+All of them are 100\% compatible with the original \LaTeX.
+
+\subsection{Is there \LaTeX\ for Macintosh, Linux, Amiga, Sun, BeBox...?}
+
+Yes.  \LaTeX\ has been ported to a huge variety of computers and produces
+\emph{identical} output on all of them, using \emph{identical} file formats.
+If you have Linux, you almost certainly already have \LaTeX.
+
+\subsection{What is \LaTeXe?}
+
+The version of \LaTeX\ that has been in use for the last several years.
+It was preceded by \LaTeX\ 2.09.  Those are the only two version of
+\LaTeX\ that have been distributed widely.  There will eventually be
+a \LaTeX\ 3, but not very soon.
+
+\subsection{Where do I get \LaTeX?}
+
+You can download it free of charge from various sites;
+Be careful about Googling \LaTeX.
+It's best to go to the \TeX\ Users Group web site:
+\url{http://www.tug.org}.
+
+\subsection{Where is the documentation for \LaTeX?}
+
+In the book \emph{LaTeX: A Document Preparation System,} by Leslie Lamport,
+2nd edition, published by Addison-Wesley.  \textbf{You must buy this book.}
+Other books about \LaTeX\ are useful but are not the official guide.
+
+\subsection{Where can I get help with \LaTeX?}
+
+First, read Lamport's book.  \emph{You cannot get along without it.}
+
+Second, you can ask questions on the newsgroups {\tt comp.text.tex}
+(international).
+
+Third, if you have problems that are specific to {\tt guthesis.sty},
+and particularly if {\tt guthesis.sty} does not appear to be meeting
+Georgetown's thesis format requirements, please contact me
+(Mark Maloof, maloof@cs.georgetown.edu).
+
+
+\section{The Georgetown University style sheet}
+
+\subsection{What is {\tt guthesis.sty}?}
+
+A style sheet for \LaTeX\ that makes it follow the format for
+Georgetown University theses and dissertations.
+
+\subsection{Where do I get {\tt guthesis.sty} and how do I install it?}
+
+Download it from \texttt{http://www.cs.georgetown.edu/academics/guthesis.zip}.
+
+Install it by putting it in the same directory as your thesis, or in
+directory {\tt texmf/tex/latex} of your \TeX\ system.
+
+\subsection{How do I use {\tt guthesis.sty}?}
+
+For a quick summary, see Fig.\ \ref{gutemplate}.
+For details, see the file {\tt gusample.tex}.
+For a skeleton document, see the file {\tt template.tex}.
+
+\begin{figure}
+\begin{center}
+\begin{minipage}{5in}
+\tiny
+\begin{verbatim}
+     \documentclass[12pt]{report}
+     \usepackage{guthesis}
+
+     % The following 2 lines are OPTIONAL to turn off all hypenation
+     % and print with "ragged" right margins
+     \raggedright
+     \parindent 0.25in
+
+     \title{Title of Thesis \\
+            Broken into Lines \\
+            As Appropriate}
+
+     \fulltitle{Title of Thesis Not Broken Into Lines}
+
+     \author{Your Name Here}
+
+     \previousdegree{B.A., Name of University, 1977 \\
+                     M.S., Some Other University, 1978}
+
+     \thisdegree{Master of Science} % or Doctor of Philosophy, etc.
+     \thesistype{Thesis}        % or Dissertation
+     \thesisday{5}              % put the day of defense or approval here...
+     \thesismonth{May}          % put the month of defense or approval here...
+     \thesisyear{2005}          % put the year of defense or approval here...
+
+     \indexwords{keywords for indexing your thesis in library catalogs}
+
+     \professor{Abraham Baldwin}     % Major Professor
+     \secondprofessor{Alonzo Church} % Co-Major Professor if you have one
+     \memberi{Benjamin Franklin}     % Committee member
+     \memberii{Isaac Newton}         % Committee member
+     % Use \memberiii, \memberiv, \memberv for up to 3 more members if needed.
+
+     \dean{Timothy A.\ Barbari}       % Dean of the Graduate School
+
+     \begin{document}
+     \pagenumbering{roman}   % Use Roman numerals until chapters start.
+
+     \begin{abstract}
+     Text of abstract goes here.
+     \end{abstract}
+
+     \maketitle    % Creates title page, copyright page if any, and approval page.
+
+     \chapter*{Dedication}
+     Dedication, if any, goes here.
+     It is a "\chapter*" so it is not in the table of contents.
+
+     \pseudochapter{Acknowledgments}
+     Text of acknowledgments goes here.
+     It is a "\pseudochapter" so it goes in the table of contents but has no chapter number.
+
+     \tableofcontents
+     \listoffigures   % Optional - Omit this line if you don't want a list of figures.
+     \listoftables    % Optional - Omit this line if you don't want a list of tables.
+
+     \newpage
+     \pagenumbering{arabic}  % Ordinary pages have Arabic numerals.
+
+     \chapter{Title of Chapter Goes Here}
+     Text of first chapter goes here.
+
+     \chapter{Title of Chapter Goes Here}
+     Text of second chapter goes here.
+
+     \appendices  % Indicates that appendices follow.  If there's only one, use \appendix instead.
+
+     \chapter{Title of First Appendix}
+     Text of first appendix goes here.
+
+     \chapter{Title of Second Appendix}
+     Text of second appendix goes here.
+
+     \bibliographystyle{plainnat}
+     \bibliography{thesis}  % Pulls entries from thesis.bib
+
+     \end{document}
+\end{verbatim}
+\end{minipage}
+\end{center}
+\caption{Template for formatting a thesis with {\tt guthesis.sty}.}
+\label{gutemplate}
+\end{figure}
+
+
+\subsection{Do I have to get {\tt guthesis.sty} before typing my thesis?}
+
+No.  You can type your thesis using the \LaTeX\ {\tt report} documentclass
+(described in Lamport's book); this will enable you to produce neat,
+single-spaced copies of the work in progress.  When it's finished, get
+{\tt guthesis.sty} and make the small additions to your thesis that are described
+there.
+
+
+\subsection{What are the required parts of a thesis typed with {\tt guthesis.sty}?}
+
+They are described in {\tt guthesis.sty} itself, which you can read with your
+text editor.
+Alternatively, you can use {\tt gusample.tex} as sample to imitate.
+
+
+\section{Troubleshooting}
+
+\subsection{Why is the text too high or low on the page?}
+
+See Appendix A, p.\ \pageref{mgins}.
+
+
+\subsection{Why is there a space before a footnote number?}
+
+If your footnote numbers come out positioned like this $^8$ rather than
+this$^8$, it's because you're leaving a space before the
+\verb.\footnote. command.
+\begin{verbatim}
+Type like this.\footnote{Here's the note.}
+Not like this. \footnote{Here's the note.}
+\end{verbatim}
+A useful trick is to put \verb"%" at the end of one line (to comment out
+all the remaining blank space) and then \verb"\footnote" at the beginning
+of the next line.
+
+\subsection{Why is my table of contents blank or incorrect?}
+
+You must run \LaTeX\ twice in order to get a correct table of contents.
+The first time, it keeps records of where things are; the second time,
+it actually generates the table of contents.  If the table of contents
+is long, you may need to run \LaTeX\ three times to ensure that adequate
+space is left for it.
+
+\subsection{Why is there too much space after some of the periods?}
+
+\LaTeX\ normally assumes that every period marks the end of a sentence,
+so it leaves extra space after it.  You should normally use a required
+space (\verb.~.) after every period that does not mark the end of a sentence.
+Type ``\verb"T.~S.~Eliot"'' to print ``T.~S.~Eliot'' or the like.
+
+Beginning with {\tt guthesis.sty} version 2.0 (December 2001), this is no longer
+a problem because {\tt guthesis.sty} tells \LaTeX\ not to treat periods specially;
+the same amount of space follows each word whether or not it ends with a
+period.  This is known as ``French spacing'' and is an accepted practice
+in the printing industry.
+
+\subsection{Why do some words hang out past the right margin?}
+
+When \LaTeX\ cannot break a line satisfactorily, it leaves a word sticking
+out into the margin and gives you an ``Overfull hbox'' error message.
+It is up to you to rearrange the text so that it fits.
+
+\subsection{What is an overfull hbox?}
+
+See previous question.
+
+
+\subsection{What is a ``Package hyperref warning''?}
+
+Most people now use the \verb"hyperref" package to generate hyperlinks to
+their chapters and sections in the eventual PDF output.
+
+This is good, but \verb"hyperref" complains violently if there is anything
+other than plain text in a section title.
+It also complains if you use \verb"\pseudochapter".
+Just ignore the warnings.
+
+
+\section{Character set and typography}
+
+\subsection{How do I type a percent sign?}
+
+See Lamport's book.  A quick answer:  Type ``\verb.\%.''.
+
+\subsection{How do I type a tilde ($\sim$)?}
+
+This character often occurs in web addresses.
+In \LaTeX, when you type ``\verb.~.'' you get a blank.
+(Specifically, you get a ``required space,'' a space that cannot be
+broken across a line break.)
+To get ``$\sim$'' type ``\verb.$\sim$.''.
+Also see the {\tt url} package, which lets you write
+\verb|\url{http://www.cs.georgetown.edu/~maloof}|, typeset as
+\url{http://www.cs.georgetown.edu/~maloof}.
+
+
+\subsection{What are \textit{italics} used for?}
+
+All of the things that would be underlined in a handwritten document,
+including titles of books, foreign words, and the like.
+
+In linguistics, it is normal to put foreign words in italics and their
+definitions in single quotes.  For example, Agatha Christie's famous
+detective is named after the French word \emph{poireau} `leek'.
+
+
+\subsection{What is \underline{underlining} used for?}
+
+Almost nothing.  Roman type is not normally underlined; use italics instead.
+
+
+\subsection{What is \mbox{\tt typewriter} \mbox{\tt type} used for?}
+
+Computer program languages, whether displayed or quoted in text.  For
+example, here is part of a program written in C:
+\begin{verbatim}
+for ( i = 100; i > 0; i-- ) {
+   printf("%d bottles of beer on the wall...\n", i);
+}
+\end{verbatim}
+It demonstrates how to use the \verb"for" statement to count down from
+100 to 1.
+
+\subsection{What is the \mbox{\tt verbatim} environment used for?}
+
+Computer programs, as just demonstrated.
+
+\subsection{What is \mbox{\sf sans-serif type} used for?}
+
+Almost nothing except labels within illustrations.
+
+
+\section{Bibliographies}
+
+\subsection{How do I type the bibliography?}
+
+See Lamport's book \cite{lamport.94}
+and the examples in {\tt gusample.tex}.
+\LaTeX\ lets you refer to bibliography items in your text
+with markers such as
+\verb|\cite{lamport.94}|.
+then have \LaTeX\ automatically turn these into bracketed numbers in
+the bibliography.
+
+With {\tt guthesis.sty}, simply use the \verb.thebibliography. environment
+exactly as Lamport describes it.  This will produce a bibliography in
+the form of an unnumbered chapter at the end of your thesis.
+
+\subsection{What if each chapter has its own bibliography?}
+
+If you have bibliographies at the ends of the individual chapters, use the
+environment {\tt chapterbibliography} instead of {\tt thebibliography}.
+It works \emph{exactly} the same way except that the bibliography
+becomes a normally numbered section, not an unnumbered chapter.
+There is an example of this in {\tt gusample.tex}.
+
+The {\tt chapterbibliography} environment is provided by {\tt guthesis.sty}.
+
+\subsection{What if I don't like bracketed numbers?}
+
+Here is an example of a trick to get \LaTeX\ to print a bibliography without
+bracketed numbers.  Basically, you are telling \LaTeX\ to put the author's
+name in place of the bracketed number.  Note that this involves using
+\verb.\item. rather than \verb.\bibitem..
+\begin{verbatim}
+\begin{thebibliography}{}
+
+\item[Covington, Michael A.]
+\emph{Natural Language Processing for Prolog Programmers.}
+Englewood Cliffs, N.J.: Prentice Hall, 1994.
+
+\item[O'Keefe, Richard A.]
+\emph{The Craft of Prolog.}
+Cambridge, MA: MIT Press, 1991.
+
+\end{thebibliography}
+\end{verbatim}
+When doing this,
+don't use the \verb"\cite" command; instead, handle your references manually.
+You can do \emph{exactly} the same thing with \texttt{chapterbibliography}.
+
+
+\section{Layout and illustrations}
+
+
+\subsection{How do I turn off justification?}
+
+Justification means printing with a straight right margins.  It is not required
+for Georgetown University theses, and if your text contains many formulas, web
+addresses, or other unbreakable items, you may get considerably neater results
+by turning it off.  To do this, issue the command
+\begin{verbatim}
+\raggedright
+\end{verbatim}
+immediately after \verb.\begin{document}..
+
+You may need to turn off justification only within a bibliography.
+In that case, you should put the \verb.\raggedright. command right after
+\verb.\begin{thebibliography}.
+or right after
+\verb.\begin{chapterbibliography}.
+as the case may be.  It will then affect only the bibliography.
+
+\subsection{How do I put a picture into my thesis?}
+
+See Lamport's book.  Here's the basic process...
+\begin{enumerate}
+
+\item Learn the difference between a vector (``draw'') program and a bitmap
+(``paint'') program.  Vector programs,
+such as xfig, OpenOffice Draw, Corel Draw, and Micrografx Windows Draw,
+tell the computer to draw lines at particular positions;
+they are the right tool for generating diagrams of all types.  Bitmap
+programs are \emph{only} for working with digitized photographs and the
+like; their output has an unpleasant stairstep appearance when enlarged
+or resized.
+
+\item Produce professional-quality artwork.  (You may want to hire a
+professional illustrator.)
+Artwork in your thesis should look as good as the artwork in published books.
+
+\item Save your artwork as an encapsulated PostScript (EPS) file
+\emph{with no TIFF header}.
+(The drawing software may ask you whether you want a TIFF header; say no.)
+
+\item Use the \texttt{graphics} package (described in Lamport's book) or the
+\texttt{epsf} package to incorporate your art into your \LaTeX\ document.
+One way to do this is as follows:
+\begin{enumerate}
+\item Add the command \verb.\usepackage{graphicx}. right after
+\verb.\documentclass..
+\item Use the command \verb"\centerline{\includegraphics{xxxxxxx.eps}}"
+(with the appropriate filename substituted) to put the picture in your
+document.  Normally this will be within a \verb.figure. environment as
+described in Lamport's book.
+\end{enumerate}
+\end{enumerate}
+
+\subsection{How do I put a Windows screen shot into my thesis?}
+
+When writing about software, you many need a picture of the computer screen
+with a program running.
+Under Windows 95 and up, you can ``take a picture'' of the screen, by
+pressing Print Screen
+(or Alt-Print Screen if you only need the current window).
+This puts a copy of the screen into the Windows clipboard.  Then open up
+your favorite paint program (bitmap program) and choose Paste.  Edit
+the picture to your satisfaction, save it, and export it as encapsulated
+PostScript.  For the rest of the process, see the previous question.
+
+
+\chapter{The Craft of Scholarly Typing}
+
+\section{An exhortation}
+
+If you have come to the University for a graduate degree, scholarly writing
+is one of the crafts
+in which you are being trained.
+This includes scholarly typing and word processing.
+We assume that you will be writing about your subject for the rest of your
+life.
+This is more likely to be true than you realize.
+
+\LaTeX\ provides you with all the tools of fine book printing.
+This includes quite a few things that were not available on typewriters.
+Accordingly, when using \LaTeX, you must learn some new things about printed
+language.
+
+
+\section{Some common punctuation errors}
+
+\subsection{Hyphens and dashes}
+
+\LaTeX\ distinguishes four kinds of horizontal lines between characters.
+
+\begin{itemize}
+\item The minus sign, $-$ (typed \verb"$-$"),
+is used only in math mode.  Always go into math mode when you want to mark
+a number as negative.
+
+\item The hyphen, - (typed \verb"-"), is used between parts of a word, as in
+``so-called'' or ``heavy-handed.''
+
+\item The short dash (en dash), -- (typed \verb"--"), goes between numbers
+in sequences, as in ``1861--65.''
+
+\item The long dash (em dash), --- (typed \verb"---"), goes between parts
+of sentences and may be set off by spaces --- like this.
+In good writing, it is uncommon; as alternatives, consider using a semicolon
+or starting a new sentence.
+\end{itemize}
+
+\subsection{Quotation marks}
+
+In \LaTeX\, you must type your quotation marks \verb"``like this''" in order
+to get them to print correctly ``like this.''  It is not correct to type
+"like this."
+
+Periods and commas ``slide under'' quotation marks so that they adhere to
+the words within them.
+Correct usage looks ``like this.''  Incorrect usage looks ``like this''.
+
+In computer science and linguistics, this rule sometimes does not apply,
+because it may be important to show that the period or comma is not part
+of the quoted material.  If you cannot get around this by rearranging the
+sentence, it is acceptable to put the period or comma outside the quotes.
+
+Single quotation marks (`like this') are used in linguistics to give the
+meanings of words.  Thus, French \emph{chateau} `castle' comes from Latin
+\emph{castellum} `fortress.'
+
+
+\subsection{Punctuation around mathematical formulae}
+
+Do not let the punctuation of your sentence intrude into a displayed
+mathematical formula.
+When a sentence ends with a displayed formula, end the sentence with a colon.
+Thus we conclude:
+\[
+a = \sum_{x=1}^\infty p(x) = q(x)
+\]
+The formula does not end with a period.
+
+
+\section{Knowing the character set}
+
+Part of knowing your subject is knowing its notation.
+If you are vague on the difference between $\emptyset$ and $\phi$, or
+$\omega$ and $w$, consult some well-produced reference books
+(not scruffily typed conference papers).
+
+Remember that in good printing, \emph{underlining is almost never used.}
+Underlining is the handwritten way of indicating italics.
+Now that you have italics, use them.
+Instead of wavy underlining (for vectors, etc.), use boldface.
+
+
+\section{Figures and tables}
+
+In a well-produced book, figures and tables do not interrupt the text like
+mathematical formulae.
+Instead, they ``float'' to the nearest convenient location and are identified
+by number.
+If there is no convenient place at the top or bottom of a page, they are
+placed on a separate page.
+
+\emph{See Lamport's book to learn how to control the placement of figures
+and tables.}
+Nothing is added or changed by {\tt guthesis.sty} --- \LaTeX\ still works exactly
+the way Lamport says.
+
+\begin{figure}
+\begin{center}
+\framebox{A picture could go here.}
+\end{center}
+\caption{This is an example of a figure.}
+\label{myfig}
+\end{figure}
+
+
+\begin{figure}
+\begin{center}
+\framebox{A picture could go here.}
+\end{center}
+\caption{This is another example of a figure.}
+\label{myfigtwo}
+\end{figure}
+
+
+Near here, you will see Figures~\ref{myfig} and~\ref{myfigtwo}.  Note that
+each picture's caption comes below it.  That is achieved by putting
+the \verb"\caption" command \emph{after} the figure.
+
+\begin{table}
+\caption{Some institutions and their mascots.}
+\label{mytb}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\bf Institution & \bf Location & \bf Mascot \\
+\hline
+University of Georgia  & Athens & Bulldawg \\
+Georgetown University  & Washington  & Bulldog \\
+Georgia Tech  & Atlanta  & Insect \\
+UCSC  &  Santa Cruz  & Banana Slug\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+Near here, you will also see Table~\ref{mytb}.  Its caption
+comes above it.  This is achieved by putting
+the \verb"\caption" command \emph{before} the table.
+
+
+\chapter{More Nonsense about \LaTeX}
+
+In this chapter, we talk about more \LaTeX\ things.
+Suspendisse potenti. Proin justo lorem, rutrum ac, facilisis in,
+malesuada sed, ligula. Mauris lobortis lacus at nibh. Aenean vitae
+odio vel odio placerat hendrerit. Suspendisse lacus lacus, tempor id,
+pharetra eget, ornare sit amet, pede. Sed aliquet, justo ac elementum
+pretium, arcu leo placerat est, a luctus purus diam eget arcu. Nam
+augue diam, mollis a, scelerisque eget, aliquet condimentum, pede.
+Vestibulum tristique lectus sed augue.
+
+\section{Introduction}\label{sec:intro}
+
+Aenean ut mauris luctus mauris interdum convallis. Nunc vestibulum
+sodales nulla. Nulla vitae massa. Maecenas vel tellus vitae elit mattis
+adipiscing. In pulvinar felis sed est. Mauris non mi. Duis ultrices dolor
+ut orci. Quisque lacinia arcu et purus. Sed euismod metus nec augue.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Nunc dolor leo, aliquam a, placerat sit amet, accumsan
+eget, dolor. Sed lacinia augue in magna. Fusce sed enim. Vestibulum et
+mauris. Phasellus in lectus. Pellentesque eu elit in dolor ullamcorper
+sodales. Vestibulum interdum ornare ligula. Mauris felis odio, rhoncus
+sed, adipiscing fermentum, tincidunt eu, metus. Suspendisse viverra
+rhoncus purus.
+
+Fusce euismod nisi at libero malesuada consectetuer. Proin laoreet, nunc
+quis hendrerit gravida, neque leo placerat sapien, et semper tortor leo
+et urna. Ut tincidunt posuere tortor. Sed tristique, odio at luctus
+facilisis, nulla quam rhoncus tortor, at congue lacus elit nec metus.
+Sed tempor sapien ut elit. Donec ac turpis feugiat nisi porta vehicula.
+
+\comment{
+This is an example of a block comment
+}
+
+\section{Problem Statement}\label{sec:problem}
+
+This is a test.  Blah, blah, blah. $\Pr(A) = \Pr(A) + \Pr(B|A)$.
+We discuss this issue in Section~\ref{sec:method}.  Indeed, we have
+\[
+\sum^{n}_{k = 1}{f(k)} \; ,
+\]
+where $f(k)$ is my favorite function.
+
+\section{Related Work}\label{sec:related}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit \cite{breiman.ml.96}.
+Phasellus non erat eu dui dignissim dictum.
+Integer iaculis nulla at nisl \cite{jaynes.mebm.90}.
+Proin ut enim non ipsum varius laoreet \cite{muslea.aaai.00,sahai.00}.
+Integer feugiat, ante fringilla blandit
+convallis, leo sapien egestas velit, non condimentum nulla sem vitae
+risus. Mauris aliquam auctor quam. Sed ac enim. Donec mattis dui id
+ligula. Integer vel sem eget ante cursus tristique. Nullam vel orci
+vitae sem interdum placerat. In eget lectus. Donec blandit. Quisque
+lacus urna, malesuada vel, mollis sit amet, rutrum nec, est. Proin
+blandit ornare nibh. Duis et felis \cite{pfleger.tr.97}.
+
+\section{Approach}\label{sec:approach}
+
+Here is an example of code:
+
+\begin{verbatim}
+int main()
+{
+  cout << "testing" << endl;
+  return 0;
+} // main
+\end{verbatim}
+Text.
+Plain text. {\em Emphasized text.} {\it Italicized text.}
+{\bf Boldfaced text}.  {\tt typewriter text.} {\large Large text.}
+Our results appear in Table~\ref{tab:results}.
+In their paper \cite{muslea.aaai.00},
+they discuss a lot of interesting things.
+
+Em dash --- which is followed by an en dash -- and then we have
+eloquently-hyphenated words, which are not to be confused with
+the minus sign: $-$.  All are different \cite{shamos.phd.78}.
+
+Here is a quote:
+\begin{quote}
+Ask not what your country can do for you.  Ask what you can do
+for your country.
+\end{quote}
+
+In Figure~\ref{alg:min}, we present an algorithm for finding the
+minimum component of a vector.
+But there are other ways to present algorithms.
+Some have started using the {\tt algorithm} and {\tt algorithmic}
+packages.
+See Algorithm~\ref{alg:pair} as an example.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam iaculis,
+felis nec semper malesuada, quam metus placerat ligula, id euismod purus
+eros eget justo. Pellentesque ipsum. In hac habitasse platea dictumst.
+Ut pede pede, sagittis sit amet, dapibus eu, tristique in, ipsum
+\cite{kolter.icml.05}.
+
+\begin{figure}[t]
+\begin{quote}
+\begin{tabbing}
+XX\=XX\=XX\=XX\=XX\=XXXXXXXXXXXXXXXXXX\= \kill
+ \> {\sf Algorithm}\,$( \; \vec{x} \; )$ \\[\smallskipamount]
+ \>\> $\vec{x}$: vector of numbers \\
+ \>\> $i$: index of minimum value \\
+ \>\> $\mbox{\em min}$: minimum value \\[\smallskipamount]
+\parbox{3ex}{\hfill 1.} \>\> $m \leftarrow \infty$ \\
+\parbox{3ex}{\hfill 2.} \>\> {\bf for} $j \leftarrow 1, \ldots, n$
+\>\>\>\> // Loop over components \\
+\parbox{3ex}{\hfill 3.} \>\>\> {\bf if} $( \vec{x}_{j} < \mbox{\em min} )$ \\
+\parbox{3ex}{\hfill 4.} \>\>\>\> $\mbox{\em min} \leftarrow \vec{x}_{j}$ \\
+\parbox{3ex}{\hfill 5.} \>\>\>\> $i \leftarrow j$ \\
+\parbox{3ex}{\hfill 6.} \>\>\> {\bf end}; \\
+\parbox{3ex}{\hfill 7.} \>\> {\bf end}; \\
+\parbox{3ex}{\hfill 8.} \>\> {\bf return} $i$ \\
+\> {\bf end.}
+\end{tabbing}
+\end{quote}
+\caption{Algorithm for finding the minimum component of a vector.}
+\label{alg:min}
+\end{figure}
+
+\paragraph{Paragraph.} Something you may never use, kind of like
+Latin.\footnote{And footnotes.}
+Aliquam fermentum velit tristique turpis. Mauris mollis dapibus purus.
+Quisque vulputate ullamcorper purus. Quisque aliquam rhoncus felis.
+Aenean fringilla mattis mi. Ut ut massa a sem fermentum venenatis.
+Fusce ut risus. Maecenas ut nisl. Praesent felis erat, tincidunt ac,
+placerat vel, sodales vel, justo. Vivamus semper sollicitudin est.
+Morbi id eros eu tellus dignissim viverra \cite{breiman.ml.96}.
+
+\begin{algorithm}[tb]
+  \caption{Paired Learner}
+  \label{alg:pair}
+  \begin{algorithmic}[1]
+    \STATE {\bfseries Input:} $\{ \vec{x}_t, y_t \}^{T}_{t=1}$, $w$, $\theta$
+    \vskip 0.3em
+    \STATE $\{ \vec{x}_t, y_t \}^{T}_{t=1}$: training data
+    \STATE $w$: window size for the reactive learner
+    \STATE $\theta$: threshold for creating a new stable learner
+    \vskip 0.3em
+    \STATE Let $S$ be a stable learner
+    \STATE Let $R_{w}$ be a $w$-reactive learner
+    \STATE Let $C$ be a circular list of $w$ bits, each initially $0$
+    \FOR{ $t \leftarrow 1$ {\bfseries to} $T$ }
+    \STATE $\hat{y}_{S} \leftarrow S.\mbox{\sf Classify}( \vec{x}_{t} )$
+    \STATE {\bfseries output} $\hat{y}_{S}$
+    \STATE $\hat{y}_{R} \leftarrow R_{w}.\mbox{\sf Classify}( \vec{x}_{t} )$
+    \IF{ $\hat{y}_{S} \neq y_{t} \wedge \hat{y}_{R} = y_{t}$ }
+    \STATE $C.\mbox{\sf set}( t )$
+    \ELSE
+    \STATE $C.\mbox{\sf unset}( t )$
+    \ENDIF
+    \IF{ $\theta < C.\mbox{\sf proportionOfSetBits}()$ }
+    \STATE $S \leftarrow \mbox{\bf new } \mbox{\sf StableLearner}()$
+    \STATE $S \leftarrow R_{w}.\mbox{\sf getConceptDescription}()$
+    \STATE $C.\mbox{\sf unsetAll}()$
+    \ENDIF
+    \STATE $S.\mbox{\sf Train}( \vec{x}_{t}, y_{t} )$
+    \STATE $R_{w}.\mbox{\sf Train}( \vec{x}_{t}, y_{t} )$
+    \ENDFOR
+  \end{algorithmic}
+\end{algorithm}
+
+Text.  See Figure~\ref{fig:design}.
+Nullam massa est, facilisis at, egestas non, lobortis at, felis.
+Vestibulum eu velit ut justo commodo pretium. Quisque commodo velit
+vel sem. Cum sociis natoque penatibus et magnis dis parturient montes,
+nascetur ridiculus mus. Donec nec magna. Aliquam erat volutpat.
+
+\begin{theorem}[Kolter and Maloof \cite{kolter.icml.05}]
+\label{addexp.d-mistake-1}
+For any time steps $\mathrm{t_1} < \mathrm{t_2}$, if we stipulate that
+$\beta + 2\gamma < 1$, then the number of mistakes that \textbf{AddExp.D}
+will make between time steps $\mathrm{t_1}$ and $\mathrm{t_2}$ can be
+bounded by
+\[
+M_{t_2} - M_{t_1} \leq
+\frac{\log (W_{t_1} / W_{t_2})}{\log (2/(1+\beta+2\gamma))} \; .
+\]
+\end{theorem}
+
+\begin{proof}
+\textbf{AddExp.D} operates by multiplying the weights of the experts that
+predicted incorrectly by $\beta$.  If we assume that a mistake is made at
+time step $t$ then we know that at least $1/2$ of the weight in the
+ensemble predicted incorrectly.  In addition, a new expert will be added
+with weight $\gamma W_t$.  So we can bound the weight with
+\[
+W_{t+1} \leq \frac{1}{2}W_t + \frac{\beta}{2}W_t + \gamma W_t =
+\frac{1+\beta +2\gamma}{2} W_t \; .
+\]
+Applying this function recursively leads to:
+\[
+W_{t_2} \leq \frac{1+\beta+2\gamma}{2}^{M_{t_2} - M_{t_1}} W_{t_1} \; .
+\]
+Taking the logarithm and rearranging terms gives the desired bound, which
+will h old since the requirement that $\beta + 2\gamma < 1$ ensures that
+$(1 + \beta + 2\gamma)/2 < 1$. \qed
+\end{proof}
+
+\section{Experimental Study}\label{sec:study}
+
+Always put something here, even if it just informs the reader of what
+comes next.
+Integer odio lorem, aliquam id, dignissim in, varius at, neque. Class
+aptent taciti sociosqu ad litora torquent per conubia nostra, per
+inceptos himenaeos. Maecenas vitae massa ultrices lorem aliquam pharetra.
+In hac habitasse platea dictumst. Nunc consectetuer sapien. Maecenas ut
+felis. Sed blandit congue mauris. Donec ornare laoreet tortor. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Fusce id neque ac enim lobortis aliquet. Sed a purus ac nunc feugiat
+interdum. Suspendisse risus. Donec pulvinar, turpis at rutrum porta,
+justo massa iaculis quam, vel pharetra leo magna et metus. Etiam tellus
+dolor, volutpat et, dignissim vel, iaculis in, sem. Donec ante est,
+ultricies non, eleifend in, pretium id, nisl. Fusce vitae nunc.
+Vivamus egestas. Vestibulum nibh. Aliquam rutrum imperdiet diam.
+
+\begin{figure}[t]
+\centerline{\includegraphics[width=1.0in]{state.eps}}
+\caption{A pretty picture.} \label{fig:design}
+\end{figure}
+
+\subsection{Method}\label{sec:method}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed vitae risus.
+Vivamus dapibus, quam vehicula eleifend vestibulum, pede magna iaculis
+leo, quis convallis nisl mauris id arcu. Morbi tincidunt odio at libero.
+Mauris molestie. Proin placerat, neque sit amet eleifend ullamcorper,
+arcu sem ornare arcu, a adipiscing metus felis eu turpis. Integer bibendum
+nisi placerat quam. Donec id enim. Sed neque ipsum, ullamcorper vitae,
+bibendum nec, pharetra quis, quam. Curabitur suscipit aliquet ligula.
+Aenean pede.
+
+Cras molestie turpis ac lorem. Vivamus molestie porta purus. Nulla
+facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Fusce fermentum, ante in vestibulum auctor, turpis tellus aliquam est,
+in accumsan massa tortor id magna. Mauris sit amet libero. Donec orci dui,
+interdum in, sollicitudin id, adipiscing quis, nulla. Sed ante orci,
+sagittis at, egestas ut, egestas nec, leo. Cras malesuada dolor sed diam.
+Ut lobortis velit sodales nunc.
+
+\input table.tex
+
+Duis vestibulum lacus eget dolor. Proin at quam. Phasellus viverra molestie
+nisl. In non elit et felis commodo suscipit. Phasellus consectetuer purus.
+Donec lobortis sagittis ante. Vestibulum hendrerit blandit quam.
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+ac turpis egestas. Duis vel quam. Proin dictum. Donec laoreet scelerisque
+nisi. Sed at urna et justo vulputate tristique. Aenean interdum. Quisque
+in tortor. Morbi eget purus. Vestibulum ante ipsum primis in faucibus orci
+luctus et ultrices posuere cubilia Curae; Etiam semper. 
+
+\begin{figure}
+\centerline{\includegraphics[scale=1.0]{plots/stagger.stagger.ps}}
+\caption{Results.} \label{fig:results}
+\end{figure}
+
+\subsection{Results}\label{sec:results}
+
+In Table~\ref{tab:results}, we present the results of our study.
+In Figure~\ref{fig:results}, we present the results of our study.
+Aliquam fermentum velit tristique turpis. Mauris mollis dapibus purus.
+Quisque vulputate ullamcorper purus. Quisque aliquam rhoncus felis.
+Aenean fringilla mattis mi. Ut ut massa a sem fermentum venenatis.
+Fusce ut risus. Maecenas ut nisl. Praesent felis erat, tincidunt ac,
+placerat vel, sodales vel, justo. Vivamus semper sollicitudin est.
+Morbi id eros eu tellus dignissim viverra.
+
+\subsection{Analysis}\label{sec:analysis}
+
+Nulla odio. Phasellus congue malesuada quam. Pellentesque non lectus
+at nisi venenatis faucibus. Proin gravida diam vitae pede. Morbi sit
+amet dolor. Pellentesque feugiat tortor ut est. Ut sodales augue non
+velit.
+
+Duis arcu. Nam ac mauris. Pellentesque eleifend tellus ac eros.
+Maecenas varius massa eu nunc mollis imperdiet. Donec interdum, lorem
+in vestibulum feugiat, elit arcu fringilla ante, et sollicitudin ipsum
+sapien a turpis. Proin sit amet nisl id metus hendrerit volutpat.
+
+\section{Conclusion}\label{sec:conclusion}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Duis cursus.
+Duis consectetuer, lacus id vehicula viverra, dolor quam dignissim pede,
+nec ultrices metus tortor quis turpis.
+Praesent non orci non est tincidunt mollis.
+Nullam pellentesque auctor orci.
+Morbi aliquam.
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus.
+
+In auctor ornare risus.
+Nulla id magna nec pede elementum rhoncus.
+Suspendisse ultricies mattis lacus.
+Cras pulvinar pede nec dolor.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Suspendisse potenti.
+Sed pede massa, scelerisque id, tempor ac, vestibulum nec, est.
+Maecenas molestie tincidunt orci.
+Donec ac leo quis libero iaculis semper.
+Aenean ligula pede, semper eu, tristique eu, aliquam in, nisi.
+Curabitur sagittis condimentum ligula.
+Nunc interdum suscipit libero.
+
+
+\appendices  % Indicates that appendices follow.
+% If there's only one, use \appendix instead.
+
+
+\chapter{Important Note About Margins}
+\label{mgins}
+
+\section{General tactics}
+No two printers are alike.  Please print a few pages and \emph{measure} them.
+\LaTeX\ can send commands to your printer, but it can't see whether they are
+being obeyed!
+
+Check the {\tt dvips} problem described below.
+If, after tackling that,
+you still need to make adjustments to get correct margins on paper
+(1.5 inches on the left and 1 inch on the right),
+add commands such as:
+\begin{verbatim}
+\hoffset = 0.5in    % shift 0.5 inch to the right
+\voffset = -0.1in   % shift 0.1 inch up
+\end{verbatim}
+in your \verb".tex" file right after after \verb"\usepackage{gu}".
+
+
+\section{The A4 problem}
+
+If your printouts are consistently too high or too low on the page,
+and you are generating PostScript files
+using the {\tt dvips} command, you are probably generating output for
+A4 (11.7-inch) paper.
+
+That is the size of paper used in Europe.
+American (``letter'') paper is only 11 inches long and is the size specified
+for Georgetown theses and dissertations (and their electronic images).
+
+As a quick check, try
+typing the {\tt dvips} command with the argument {\tt -tletter}, like this:
+\begin{flushleft}
+{\tt dvips -tletter {\it filename}}
+\end{flushleft}
+If that cures the problem, you can fix it permanently by editing the file
+{\tt config.ps} to make letter size (11-inch) paper the default.
+See the {\tt dvips} documentation for details.
+
+
+\chapter{Customizing the Table of Contents}
+
+On rare occasions the table of contents will not come out formatted
+the way you'd like.  Here's how to control it. \emph{Most people will
+not need to do this} and can ignore these notes.
+
+Every time you run \LaTeX, it writes the table of contents on a file
+whose name ends in \verb".toc", and reads and prints the \verb".toc" file
+from the \emph{previous} run.
+That's why you have to run \LaTeX\ twice to get a correct table of contents.
+
+If you need to alter your table of contents (e.g., by inserting a
+page break), you can edit the \verb".toc" file in between two runs of \LaTeX.
+For example, you can insert \verb"\newpage" to generate a page break.
+Note that this change will not last because \LaTeX\ will write a new
+\verb".toc" file ever time it runs.
+
+Alternatively, you can add a command to your \verb".tex" file that will
+add something to the contents.  For example, just before beginning
+a particular chapter, you can execute the command:
+\begin{verbatim}
+\addtocontents{toc}{\newpage}
+\end{verbatim}
+to cause a page break at the corresponding place in the table of
+contents.
+
+
+\chapter{Common PDF Problems}
+
+When you convert your thesis from PostScript to PDF (with
+Adobe Acrobat Distiller or other suitable software), you may discover
+two problems.
+
+\section{Text shrinks when converted to PDF}
+
+This may mean that your PostScript file was formatted for A4
+(11.7-inch) paper, and PDF is shrinking it to fit on American 11-inch
+paper.  See p.\ \pageref{mgins}.
+
+
+\section{Type looks blurred or pixellated}
+
+This generally means you are using the old bitmap versions of the
+\TeX\ fonts rather than the PostScript versions.  As a quick check, try
+adding the command \verb"\usepackage{times}" right after \verb"\documentclass".
+This will change the typeface.  If the new typeface looks a lot
+smoother, you've identified the problem but not cured it.
+
+To get the PostScript \TeX\ fonts, get your system support people to
+reconfigure {\tt dvips}, or download and install a newer version,
+or simply run \LaTeX\ on a computer that has more up-to-date software.
+
+Please note that PDF conversion is not affected by \verb"guthesis.sty" and the
+author of \verb"guthesis.sty" cannot undertake to solve other problems with it.
+
+
+
+\chapter{How to Cite Web Pages}
+
+Your bibliography entries should follow whatever format is standard in your
+field.
+If completely stymied, see the \emph{Chicago Manual of Style} (which gives
+\emph{two} formats, one for humanities and one for sciences; don't mix them
+up) or the \emph{Publication Manual} of the American Psychological Association.
+
+Even so, you will probably still be in doubt about how to cite web pages.
+The way I see it, the Web is not a publisher.  Thus, a web address is not
+a sufficient citation for a web page.
+Instead, you must cite the document itself (indicating where and when it
+originated) and then add information about the web address.
+
+If the paper has been published, and you got a copy from the author's web
+site, your job is easy.  Just do something like this:
+\begin{quote}
+Newton, Isaac (1672) On the refraction of coloured light.
+\emph{Journal of Irreproducible Results} 23:456-789.
+Web: \url{http://www.trinity.cam.ac.uk/new\-ton/colour.pdf}.
+\end{quote}
+That is, add the web information at the end of a normal citation.
+
+If the paper is available only on the author's web site (at an institution
+or corporation), cite the institution or corporation as the publisher,
+something like this:
+\begin{quote}
+Newton, Isaac (1672)  On the refraction of coloured light.  Trinity College,
+Cambridge.  Web: \url{http://www.trinity.cam.ac.uk/newton/colour.pdf}.
+\end{quote}
+The idea is to cite it just like a privately distributed paper except that
+you add the web address.
+
+If the web site \emph{is} a publisher (e.g., an online journal), then it
+will probably give instructions for citation.
+Do not copy numbers into a bibliography entry if you don't know what they
+mean.
+
+Consult your major professor for more advice, since the details will depend
+on other aspects of your bibliography format.
+
+Note that the character $\sim$ in web addresses is typed \verb"$\sim$",
+unless you use the {\tt url} package.
+
+Note also that by itself, \LaTeX\ will not hyphenate a URL.  It is up to you
+to indicate with the symbol \verb"\-" the places where hyphens are permitted.
+Always hyphenate within words, not between compound words, so that the reader
+will know that the hyphen was not present in the original.
+
+\bibliographystyle{plainnat}
+\bibliography{gusample}
+
+\typeout{***}
+\typeout{*** Note!}
+\typeout{*** Because this document has a table of contents,}
+\typeout{*** you must run LaTeX TWICE to get it to print correctly.}
+\typeout{***}
+
+\end{document}
+

@@ -1,0 +1,88 @@
+\contentsline {pseudochapter}{\sc Acknowledgments}{v}
+\contentsline {pseudochapter}{\sc Preface}{vi}
+\par \vspace {6\p@ }
+\noindent {\sc Chapter}
+\vspace {-3\p@ }
+\contentsline {chapter}{\numberline {1}What \LaTeX \ is all about}{1}
+\contentsline {chapter}{\numberline {2}Five Important Notes}{3}
+\contentsline {section}{\numberline {2.1}\LaTeX \ is not a typewriter --- nor an ordinary word processor}{3}
+\contentsline {section}{\numberline {2.2}You can't do without the book!}{3}
+\contentsline {section}{\numberline {2.3}The {\tt guthesis.sty} style sheet adds to \LaTeX \ but does not replace it}{4}
+\contentsline {section}{\numberline {2.4}Ragged right margins are optional}{4}
+\contentsline {section}{\numberline {2.5}Please let \LaTeX \ do the layout...}{4}
+\contentsline {section}{\numberline {2.6}Please use floating figures and tables...}{5}
+\contentsline {chapter}{\numberline {3}Frequently Asked Questions About Typing Georgetown Theses with \LaTeX \ and {\tt guthesis.sty}}{6}
+\contentsline {section}{\numberline {3.1}\LaTeX \ itself}{6}
+\contentsline {subsection}{\numberline {3.1.1}What is \LaTeX ?}{6}
+\contentsline {subsection}{\numberline {3.1.2}How is ``\LaTeX '' pronounced?}{7}
+\contentsline {subsection}{\numberline {3.1.3}What's it like to run \LaTeX ?}{7}
+\contentsline {subsection}{\numberline {3.1.4}Who benefits the most from using \LaTeX ?}{7}
+\contentsline {subsection}{\numberline {3.1.5}Who should \emph {not} use \LaTeX ?}{8}
+\contentsline {section}{\numberline {3.2}\LaTeX \ versions}{8}
+\contentsline {subsection}{\numberline {3.2.1}What are MikT\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}, emT\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}, teT\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}, etc.?}{8}
+\contentsline {subsection}{\numberline {3.2.2}Is there \LaTeX \ for Macintosh, Linux, Amiga, Sun, BeBox...?}{8}
+\contentsline {subsection}{\numberline {3.2.3}What is \LaTeXe ?}{8}
+\contentsline {subsection}{\numberline {3.2.4}Where do I get \LaTeX ?}{9}
+\contentsline {subsection}{\numberline {3.2.5}Where is the documentation for \LaTeX ?}{9}
+\contentsline {subsection}{\numberline {3.2.6}Where can I get help with \LaTeX ?}{9}
+\contentsline {section}{\numberline {3.3}The Georgetown University style sheet}{9}
+\contentsline {subsection}{\numberline {3.3.1}What is {\tt guthesis.sty}?}{9}
+\contentsline {subsection}{\numberline {3.3.2}Where do I get {\tt guthesis.sty} and how do I install it?}{9}
+\contentsline {subsection}{\numberline {3.3.3}How do I use {\tt guthesis.sty}?}{10}
+\contentsline {subsection}{\numberline {3.3.4}Do I have to get {\tt guthesis.sty} before typing my thesis?}{10}
+\contentsline {subsection}{\numberline {3.3.5}What are the required parts of a thesis typed with {\tt guthesis.sty}?}{10}
+\contentsline {section}{\numberline {3.4}Troubleshooting}{10}
+\contentsline {subsection}{\numberline {3.4.1}Why is the text too high or low on the page?}{10}
+\contentsline {subsection}{\numberline {3.4.2}Why is there a space before a footnote number?}{10}
+\contentsline {subsection}{\numberline {3.4.3}Why is my table of contents blank or incorrect?}{12}
+\contentsline {subsection}{\numberline {3.4.4}Why is there too much space after some of the periods?}{12}
+\contentsline {subsection}{\numberline {3.4.5}Why do some words hang out past the right margin?}{12}
+\contentsline {subsection}{\numberline {3.4.6}What is an overfull hbox?}{12}
+\contentsline {subsection}{\numberline {3.4.7}What is a ``Package hyperref warning''?}{13}
+\contentsline {section}{\numberline {3.5}Character set and typography}{13}
+\contentsline {subsection}{\numberline {3.5.1}How do I type a percent sign?}{13}
+\contentsline {subsection}{\numberline {3.5.2}How do I type a tilde ($\sim $)?}{13}
+\contentsline {subsection}{\numberline {3.5.3}What are \textit {italics} used for?}{13}
+\contentsline {subsection}{\numberline {3.5.4}What is \relax $\@@underline {\hbox {underlining}}\mathsurround \z@ $\relax used for?}{14}
+\contentsline {subsection}{\numberline {3.5.5}What is \unhbox \voidb@x \hbox {\tt typewriter} \unhbox \voidb@x \hbox {\tt type} used for?}{14}
+\contentsline {subsection}{\numberline {3.5.6}What is the \unhbox \voidb@x \hbox {\tt verbatim} environment used for?}{14}
+\contentsline {subsection}{\numberline {3.5.7}What is \unhbox \voidb@x \hbox {\sf sans-serif type} used for?}{14}
+\contentsline {section}{\numberline {3.6}Bibliographies}{14}
+\contentsline {subsection}{\numberline {3.6.1}How do I type the bibliography?}{14}
+\contentsline {subsection}{\numberline {3.6.2}What if each chapter has its own bibliography?}{15}
+\contentsline {subsection}{\numberline {3.6.3}What if I don't like bracketed numbers?}{15}
+\contentsline {section}{\numberline {3.7}Layout and illustrations}{16}
+\contentsline {subsection}{\numberline {3.7.1}How do I turn off justification?}{16}
+\contentsline {subsection}{\numberline {3.7.2}How do I put a picture into my thesis?}{16}
+\contentsline {subsection}{\numberline {3.7.3}How do I put a Windows screen shot into my thesis?}{17}
+\contentsline {chapter}{\numberline {4}The Craft of Scholarly Typing}{18}
+\contentsline {section}{\numberline {4.1}An exhortation}{18}
+\contentsline {section}{\numberline {4.2}Some common punctuation errors}{18}
+\contentsline {subsection}{\numberline {4.2.1}Hyphens and dashes}{18}
+\contentsline {subsection}{\numberline {4.2.2}Quotation marks}{19}
+\contentsline {subsection}{\numberline {4.2.3}Punctuation around mathematical formulae}{19}
+\contentsline {section}{\numberline {4.3}Knowing the character set}{20}
+\contentsline {section}{\numberline {4.4}Figures and tables}{20}
+\contentsline {chapter}{\numberline {5}More Nonsense about \LaTeX }{22}
+\contentsline {section}{\numberline {5.1}Introduction}{22}
+\contentsline {section}{\numberline {5.2}Problem Statement}{23}
+\contentsline {section}{\numberline {5.3}Related Work}{23}
+\contentsline {section}{\numberline {5.4}Approach}{23}
+\contentsline {paragraph}{Paragraph.}{24}
+\contentsline {section}{\numberline {5.5}Experimental Study}{26}
+\contentsline {subsection}{\numberline {5.5.1}Method}{27}
+\contentsline {subsection}{\numberline {5.5.2}Results}{28}
+\contentsline {subsection}{\numberline {5.5.3}Analysis}{29}
+\contentsline {section}{\numberline {5.6}Conclusion}{29}
+\par \vspace {6\p@ }
+\noindent {\sc Appendix}
+\vspace {-3\p@ }
+\contentsline {chapter}{\numberline {A}Important Note About Margins}{30}
+\contentsline {section}{\numberline {A.1}General tactics}{30}
+\contentsline {section}{\numberline {A.2}The A4 problem}{30}
+\contentsline {chapter}{\numberline {B}Customizing the Table of Contents}{32}
+\contentsline {chapter}{\numberline {C}Common PDF Problems}{33}
+\contentsline {section}{\numberline {C.1}Text shrinks when converted to PDF}{33}
+\contentsline {section}{\numberline {C.2}Type looks blurred or pixellated}{33}
+\contentsline {chapter}{\numberline {D}How to Cite Web Pages}{34}
+\contentsline {pseudochapter}{\sc Bibliography}{36}

@@ -1,0 +1,21 @@
+To produce a PDF of the sample from scratch, you need to run LaTeX
+once on the sample to generate the correct bibliography entries.
+Then you need to run bibTeX to generate the bibliography.  Then you
+need to run LaTeX to generate all of the correct cross-references,
+entries in the table of contents, and the bibliography.  Then you
+can convert it from a DVI file to a PDF file.
+
+On a Unix machine:
+
+% latex gusample
+% bibtex gusample
+% latex gusample
+% latex gusample
+% dvipdf gusample
+
+See the file latex-tutorial.pdf for help with LaTeX.  See
+http://www.tug.org for help with LateX distributions.
+
+Pointers appear in gusample.tex, and template.tex is a skeleton
+document.
+

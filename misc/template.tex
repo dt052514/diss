@@ -1,0 +1,181 @@
+% File 'template.tex'
+
+\documentclass[12pt]{report}
+
+\usepackage{url}
+\usepackage[numbers,sort]{natbib}
+\usepackage[dvips]{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% If there are any other \usepackage commands, put them here
+
+\newtheorem{theorem}{Theorem}[section]
+\newenvironment{proof}[0]{\textit{Proof.}}{}
+\newcommand{\qed}{\hfill $\Box$}
+
+% To comment out multiple lines of text.
+\long\def\comment#1{}
+
+\usepackage{guthesis}
+
+\title{Title}
+
+\author{Author}
+
+\previousdegree{B.S.}
+
+\thisdegree{Master of Science}  % or Doctor of Philosophy, etc.
+
+\thisdiscipline{Computer Science}
+
+\thesistype{Thesis}     % or Dissertation
+
+% defense or approval date, not today's date...
+\thesisday{5}
+\thesismonth{May}
+\thesisyear{2005}
+
+\professor{First I.\ Last}
+%\secondprofessor{First I.\ Last}   % Only if you have 2 major professors!
+
+\fulltitle{Full Title}
+
+\indexwords{word1, word2, word3}
+
+\dean{Timothy A.\ Barbari}
+
+\memberi{First I.\ Last}
+\memberii{First I.\ Last}
+% Use \memberiii, \memberiv, \memberv for up to 3 more members if needed.
+
+\begin{document}
+
+\pagenumbering{roman}
+
+\maketitle    % Creates title page, copyright page if any, and approval page.
+
+\begin{abstract}
+This is the abstract, a brief summary of the contents of the entire thesis.
+It is limited to 350 words.
+\end{abstract}
+
+
+\chapter*{Dedication}
+
+The Dedication is optional.
+
+
+\pseudochapter{Acknowledgments}
+
+The author would like to thank...
+
+
+\pseudochapter{Preface}
+
+A preface is not an introduction, and most theses do not need them.
+
+
+\tableofcontents
+
+\listoffigures  % Optional - Omit this line if you don't want a list of figures.
+\listoftables   % Optional - Omit this line if you don't want a list of tables.
+
+\newpage
+
+\pagenumbering{arabic}  % Ordinary pages have Arabic numerals.
+
+\chapter{Introduction}
+
+\section{Section}
+
+\subsection{Subsection}
+
+\subsection{Subsection}
+
+\chapter{Background}
+
+\chapter{Related Work}
+
+\chapter{Methodology}
+
+\chapter{Experimental Study}
+
+\section{Experiment 1: Description}
+
+\subsection{Design}
+
+\subsection{Results}
+
+\subsection{Analysis}
+
+\chapter{Discussion}
+
+\chapter{Conclusion}\label{chap:conclusion}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Duis cursus.
+Duis consectetuer, lacus id vehicula viverra, dolor quam dignissim pede,
+nec ultrices metus tortor quis turpis.
+Praesent non orci non est tincidunt mollis.
+Nullam pellentesque auctor orci.
+Morbi aliquam.
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus.
+
+In auctor ornare risus.
+Nulla id magna nec pede elementum rhoncus.
+Suspendisse ultricies mattis lacus.
+Cras pulvinar pede nec dolor.
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Suspendisse potenti.
+Sed pede massa, scelerisque id, tempor ac, vestibulum nec, est.
+Maecenas molestie tincidunt orci.
+Donec ac leo quis libero iaculis semper.
+Aenean ligula pede, semper eu, tristique eu, aliquam in, nisi.
+Curabitur sagittis condimentum ligula.
+Nunc interdum suscipit libero.
+
+
+\appendices  % Indicates that appendices follow.
+% If there's only one, use \appendix instead.
+
+
+\chapter{First Appendix}\label{app:first}
+
+\chapter{Second Appendix}
+
+%\bibliographystyle{plainnat}
+%\bibliography{thesis}  % thesis.bib
+
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Breiman(1996)]{breiman.ml.96}
+L.~Breiman.
+\newblock Bagging predictors.
+\newblock \emph{Machine Learning}, 24:\penalty0 123--140, 1996.
+
+\bibitem[Jaynes(1990)]{jaynes.mebm.90}
+E.T. Jaynes.
+\newblock Probability theory as logic.
+\newblock In {Foug\`ere, P.F.}, editor, \emph{Maximum entropy and {B}ayesian
+  methods}, pages 1--16. Kluwer, Dordrecht, 1990.
+\newblock URL \url{http://bayes.wustl.edu/etj/articles/prob.as.logic.pdf}.
+\newblock Proceedings of the 9th International Workshop, Dartmouth.
+
+\end{thebibliography}
+
+\typeout{***}
+\typeout{*** Note!}
+\typeout{*** Because this document has a table of contents,}
+\typeout{*** you must run LaTeX TWICE to get it to print correctly.}
+\typeout{***}
+
+\end{document}
+
