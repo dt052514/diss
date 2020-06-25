@@ -34,7 +34,7 @@ knitr::opts_chunk$set(fig.path='finalfig/',
                       message=FALSE)
 ```
 
-```{r global_options_gitbook, include=F, eval=F, echo=F, message=F, warning=F}
+```{r global_options_gitbook, include=F, eval=T, echo=F, message=F, warning=F}
 knitr::opts_chunk$set(fig.path='finalfig/',
                       echo=TRUE, 
                       warning=FALSE, 

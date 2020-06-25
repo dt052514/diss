@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.23)  25 JUN 2020 00:45
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.25)  25 JUN 2020 13:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -142,7 +142,7 @@ Package: expl3 2020-06-18 L3 programming layer (loader)
 
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx
 .def
-File: l3backend-xdvipdfmx.def 2020-06-18 L3 backend support: xdvipdfmx
+File: l3backend-xdvipdfmx.def 2020-06-23 L3 backend support: xdvipdfmx
 \g__graphics_track_int=\count184
 \l__pdf_internal_box=\box47
 \g__pdf_backend_object_int=\count185
@@ -1205,13 +1205,13 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 7.66417pt on input line 7.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.47441pt on input line 7.
-)
+[3])
 \tf@toc=\write6
 \openout6 = `dissertation.toc'.
 
-[3] [4
+[4] [5
 
-] [5] [6]
+] [6]
 Chapter 1.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 198.
@@ -1448,92 +1448,107 @@ File: finalfig/basemodelplot-1.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[59] [60] [61] [62] [63]
-Underfull \hbox (badness 10000) in paragraph at lines 1016--1018
+[59] [60]
+Chapter 3.
+[61
+
+]
+Underfull \vbox (badness 1152) has occurred while \output is active []
+
+[62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76]
+Underfull \hbox (badness 10000) in paragraph at lines 1145--1147
 [][] [][] [][][][][][][][] [] [][][][][][][][] [][] [][][][] [] [][][][][][] []
 [] [][][] [][] [][][][][][][][][] [] [][][][][] [][] [][][][][] [][] [][][] [][
 ] [][][][][] [][] [][][][][][] [][]
  []
 
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1027
+[77]
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1159
 [][][][][] [] [][][][][][] [] [][][] [] [][][][][] [] [][] [] [][][][][] [] [][
 ][] [] [][][][][][][][][][][][][][][] [] [][][][][][] [] [][][][][][] []
  []
 
 
-Overfull \hbox (0.37234pt too wide) in paragraph at lines 1025--1027
+Overfull \hbox (0.37234pt too wide) in paragraph at lines 1157--1159
 [][][][][] [] [][][][][][][][][][][][] [] [][][][][][][][][][][][][][] [] [][][
 ][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[65] [66]
-Underfull \hbox (badness 2922) in paragraph at lines 1073--1075
+[78] [79]
+Underfull \hbox (badness 2922) in paragraph at lines 1205--1207
 \TU/lmr/m/n/10.95 UK: Cambridge University Press. []$[][][][] [] [] [] [][][][]
 [] [] [][][][][][] [] [][] [] [][][][][] [] [][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1073--1075
+Underfull \hbox (badness 10000) in paragraph at lines 1205--1207
 [][][] [] [][][][][][] [] [][][][][][][][] [] [][][][][][] [] [][][][][][] [] [
 ][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1073--1075
+Underfull \hbox (badness 10000) in paragraph at lines 1205--1207
 [][][][][] [] [][][][][][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][
 ][][][] [] [][][][][][][][][][] [] [] [] [][][][][][][][][][][][] []
  []
 
-[67] [68]
-Underfull \hbox (badness 10000) in paragraph at lines 1106--1108
+[80]
+Underfull \hbox (badness 6047) in paragraph at lines 1235--1237
+\TU/lmr/m/n/10.95 September 5, 2019. []$[][][][] [] [] [] [][][][][][][][][][][
+][] [] [][] [] [][][] [] [][][][] [] [][] [] [][] [] [][][][][][][][][][][][][]
+ []
+ []
+
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 1244--1246
 [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][][] []
  [][][][][][][][] [][] [][][][][] [][] [][][][][][][][][][] [][] [][][][][][][]
 [][] [][] [][][][] [][]
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 1121--1123
+Underfull \hbox (badness 2922) in paragraph at lines 1259--1261
 \TU/lmr/m/n/10.95 UK: Cambridge University Press. []$[][][][] [] [] [] [][][][]
 [] [] [][][][][][] [] [][] [] [][][][][] [] [][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1123
+Underfull \hbox (badness 10000) in paragraph at lines 1259--1261
 [][][] [] [][][][][][] [] [][][][][][][][] [] [][][][][][] [] [][][][][][] [] [
 ][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1123
+Underfull \hbox (badness 10000) in paragraph at lines 1259--1261
 [][][][][] [] [][][][][][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][
 ][][][] [] [][][][][][][][][][] [] [] [] [][][][][][][][][][][][] []
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1124.
-[69]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1124.
+[82]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1262.
+[83]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1262.
 (./dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1124.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1124.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1262.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1262.
 
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: C2B47AFC583BE089C0A08850BA03B6CE;2377.
+(rerunfilecheck)             Checksum: B80784682B9EE329D6D21C9A17B1A329;3055.
 
 LaTeX Warning: There were undefined references.
 
 Package logreq Info: Writing requests to 'dissertation.run.xml'.
 \openout1 = `dissertation.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1124.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1262.
  ) 
 Here is how much of TeX's memory you used:
- 27221 strings out of 481269
- 498518 string characters out of 5925377
- 1206067 words of memory out of 5000000
- 44352 multiletter control sequences out of 15000+600000
- 540877 words of font info for 97 fonts, out of 8000000 for 9000
+ 27228 strings out of 481269
+ 498622 string characters out of 5924147
+ 1208318 words of memory out of 5000000
+ 44361 multiletter control sequences out of 15000+600000
+ 540885 words of font info for 98 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  53i,11n,118p,2722b,1269s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (69 pages).
+Output written on dissertation.pdf (83 pages).
