@@ -1,0 +1,198 @@
+country	capital	ccodealp	ccode2lr
+Afghanistan	Kabul	AFG	AF
+Albania	Tirana	ALB	AL
+Algeria	Algiers	DZA	DZ
+Andorra	Andorra la Vella	AND	AD
+Angola	Luanda	AGO	AO
+Antigua and Barbuda	St. John's	ATG	AG
+Argentina	Buenos Aires	ARG	AR
+Armenia	Yerevan	ARM	AM
+Australia	Canberra	AUS	AU
+Austria	Vienna	AUT	AT
+Azerbaijan	Baku	AZE	AZ
+Bahamas	Nassau	BHS	BS
+Bahrain	Manama	BHR	BH
+Bangladesh	Dhaka	BGD	BD
+Barbados	Bridgetown	BRB	BB
+Belarus	Minsk	BLR	BY
+Belgium	Brussels	BEL	BE
+Belize	Belmopan	BLZ	BZ
+Benin	Porto Novo	BEN	BJ
+Bhutan	Thimphu	BTN	BT
+Bolivia	Sucre	BOL	BO
+Bosnia and Herzegovina	Sarajevo	BIH	BA
+Botswana	Gaborone	BWA	BW
+Brazil	Brasilia	BRA	BR
+Brunei	Bandar Seri Begawan	BRN	BN
+Bulgaria	Sofia	BGR	BG
+Burkina Faso	Ouagadougou	BFA	BF
+Burundi	Bujumbura	BDI	BI
+Cambodia	Phnom Penh	KHM	KH
+Cameroon	Yaoundé	CMR	CM
+Canada	Ottawa	CAN	CA
+Cape Verde	Praia	CPV	CV
+Central African Republic	Bangui	CAF	CF
+Chad	N'Djamena	TCD	TD
+Chile	Santiago	CHL	CL
+China	Beijing	CHN	CN
+Colombia	Bogota	COL	CO
+Comoros	Moroni	COM	KM
+Costa Rica	San José	CRI	CR
+Croatia	Zagreb	HRV	HR
+Cuba	Havana	CUB	CU
+Cyprus	Nicosia	CYP	CY
+Czech Republic	Prague	CZE	CZ
+Democratic Republic of Congo	Kinshasa	COD	CD
+Denmark	Copenagen	DNK	DK
+Djibouti	Djibouti	DJI	DJ
+Dominica	Roseau	DMA	DM
+Dominican Republic	Santo Domingo	DOM	DO
+East Timor	Dili	TLS	TL
+Ecuador	Quito	ECU	EC
+Egypt	Cairo	EGY	EG
+El Salvador	San Salvador	SLV	SV
+Equatorial Guinea	Malabo	GNQ	GQ
+Eritrea	Asmara	ERI	ER
+Estonia	Tallinn	EST	EE
+Ethiopia	Addis Ababa	ETH	ET
+Fiji	Suva	FJI	FJ
+Finland	Helsinki	FIN	FI
+France	Paris	FRA	FR
+Gabon	Libreville	GAB	GA
+Gambia	Banjul	GMB	GM
+Georgia	Tbilisi	GEO	GE
+Germany	Berlin	DEU	DE
+Ghana	Accra	GHA	GH
+Greece	Athens	GRC	GR
+Grenada	St. George's	GRD	GD
+Guatemala	Guatemala City	GTM	GT
+Guinea	Conakry	GIN	GN
+Guinea-Bissau	Bissau	GNB	GW
+Guyana	Georgetown	GUY	GY
+Haiti	Port-au-Prince	HTI	HT
+Honduras	Tegucigalpa	HND	HN
+Hungary	Budapest	HUN	HU
+Iceland	Reykjavík	ISL	IS
+India	New Delhi	IND	IN
+Indonesia	Jakarta	IDN	ID
+Iran	Tehran	IRN	IR
+Iraq	Baghdad	IRQ	IQ
+Ireland	Dublin	IRL	IE
+Israel	Jerusalem	ISR	IL
+Italy	Rome	ITA	IT
+Ivory Coast	Yamoussoukro	CIV	CI
+Jamaica	Kingston	JAM	JM
+Japan	Tokyo	JPN	JP
+Jordan	Amman	JOR	JO
+Kazakhstan	Astana	KAZ	KZ
+Kenya	Nairobi	KEN	KE
+Kiribati	Tarawa	KIR	KI
+Korea, North	Pyongyang	PRK	KP
+Korea, South	Seoul	KOR	KR
+Kosovo	Pristina	-	-
+Kuwait	Kuwait City	KWT	KW
+Kyrgyzstan	Bishkek	KGZ	KG
+Laos	Vientiane	LAO	LA
+Latvia	Riga	LVA	LV
+Lebanon	Beirut	LBN	LB
+Lesotho	Maseru	LSO	LS
+Liberia	Monrovia	LBR	LR
+Libya	Tripoli	LBY	LY
+Liechtenstein	Vaduz	LIE	LI
+Lithuania	Vilnius	LTU	LT
+Luxembourg	Luxembourg	LUX	LU
+Macedonia	Skopje	MKD	MK
+Madagascar	Antananarivo	MDG	MG
+Malawi	Lilongwe	MWI	MW
+Malaysia	Kuala Lumpur	MYS	MY
+Maldives	Malé	MDV	MV
+Mali	Bamako	MLI	ML
+Malta	Valletta	MLT	MT
+Marshall Islands	Majuro	MHL	MH
+Mauritania	Nouakchott	MRT	MR
+Mauritius	Port Louis	MUS	MU
+Mexico	Mexico City	MEX	MX
+Micronesia	Palikir	FSM	FM
+Moldova	Chisinau	MDA	MD
+Monaco	Monaco	MCO	MC
+Mongolia	Ulaanbaatar	MNG	MN
+Montenegro	Podgorica	MNE	ME
+Morocco	Rabat	MAR	MA
+Mozambique	Maputo	MOZ	MZ
+Myanmar	Naypyidaw	MMR	MM
+Namibia	Windhoek	NAM	NA
+Nauru	Yaren	NRU	NR
+Nepal	Kathmandu	NPL	NP
+Netherlands	Amsterdam	NLD	NL
+New Zealand	Wellington	NZL	NZ
+Nicaragua	Managua	NIC	NI
+Niger	Niamey	NER	NE
+Nigeria	Abuja	NGA	NG
+Norway	Oslo	NOR	NO
+Oman	Muscat	OMN	OM
+Pakistan	Islamabad	PAK	PK
+Palau	Melekeok	PLW	PW
+Palestine	East Jerusalem	PSE	PS
+Panama	Panama City	PAN	PA
+Papua New Guinea	Port Moresby	PNG	PG
+Paraguay	Asunción	PRY	PY
+Peru	Lima	PER	PE
+Philippines	Manila	PHL	PH
+Poland	Warsaw	POL	PL
+Portugal	Lisbon	PRT	PT
+Qatar	Doha	QAT	QA
+Republic of the Congo	Brazzaville	COG	CG
+Romania	Bucharest	ROU	RO
+Russia	Moscow	RUS	RU
+Rwanda	Kigali	RWA	RW
+Saint Kitts and Nevis	Basseterre	KNA	KN
+Saint Lucia	Castries	LCA	LC
+Saint Vincent and the Grenadines	Kingstown	VCT	VC
+Samoa	Apia	WSM	WS
+San Marino	San Marino	SMR	SM
+São Tomé and Príncipe	São Tomé	STP	ST
+Saudi Arabia	Riyadh	SAU	SA
+Senegal	Dakar	SEN	SN
+Serbia	Belgrade	SRB	RS
+Seychelles	Victoria	SYC	SC
+Sierra Leone	Freetown	SLE	SL
+Singapore	Singapore	SGP	SG
+Slovakia	Bratislava	SVK	SK
+Slovenia	Ljubljana	SVN	SI
+Solomon Islands	Honiara	SLB	SB
+Somalia	Mogadishu	SOM	SO
+South Africa	Pretoria	ZAF	ZA
+South Sudan	Juba	SSD	SS
+Spain	Madrid	ESP	ES
+Sri Lanka	Sri Jayawardenapura Kotte	LKA	LK
+Sudan	Khartoum	SDN	SD
+Suriname	Paramaribo	SUR	SR
+Swaziland	Mbabane	SWZ	SZ
+Sweden	Stockholm	SWE	SE
+Switzerland	Bern	CHE	CH
+Syria	Damascus	SYR	SY
+Taiwan	Taipei	TWN	TW
+Tajikistan	Dushanbe	TJK	TJ
+Tanzania	Dodoma	TZA	TZ
+Thailand	Bangkok	THA	TH
+Togo	Lomé	TGO	TG
+Tonga	Nukualofa	TON	TO
+Trinidad and Tobago	Port of Spain	TTO	TT
+Tunisia	Tunis	TUN	TN
+Turkey	Ankara	TUR	TR
+Turkmenistan	Ashgabat	TKM	TM
+Tuvalu	Funafuti	TUV	TV
+Uganda	Kampala	UGA	UG
+Ukraine	Kiev	UKR	UA
+United Arab Emirates	Abu Dhabi	ARE	AE
+United Kingdom	London	GBR	GB
+United States	Washington D.C.	USA	US
+Uruguay	Montevideo	URY	UY
+Uzbekistan	Tashkent	UZB	UZ
+Vanuatu	Port Vila	VUT	VU
+Vatican City	Vatican City	VAT	VA
+Venezuela	Caracas	VEN	VE
+Vietnam	Hanoi	VNM	VN
+Yemen	Sana'a	YEM	YE
+Zambia	Lusaka	ZMB	ZM
+Zimbabwe	Harare	ZWE	ZW

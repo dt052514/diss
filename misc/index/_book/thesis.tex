@@ -1,0 +1,294 @@
+% From https://github.com/UWIT-IAM/UWThesis
+
+\documentclass [11pt, proquest] {uwthesis}[2015/03/03]
+
+% fix for pandoc 1.14
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\newtheorem{theorem}{Jibberish}
+
+%% \bibliography{references}
+
+\hyphenation{mar-gin-al-ia}
+
+%
+% ----- apply watermark to every page
+% ----- change 'stamp' to 'nostamp'
+%------ to omit watermark
+%
+\usepackage[nostamp]{draftwatermark}
+% % Use the following to make modification
+\SetWatermarkText{DRAFT}
+\SetWatermarkLightness{0.95}
+
+%% for the per mil symbol
+\usepackage[nointegrals]{wasysym}
+
+%% for copyright symbol
+\usepackage{textcomp}
+
+%% to allow to rotate pages to landscape
+\usepackage{lscape}
+%% to adjust table column width
+\usepackage{tabularx}
+
+% suppress bottom page numbers on first page of each chapter
+% because they overlap with text
+\usepackage{etoolbox}
+\patchcmd{\chapter}{plain}{empty}{}{}
+
+%% for more attractive tables
+\usepackage{booktabs}
+\usepackage{longtable}
+
+
+\usepackage{graphicx}
+
+
+% Double spacing, if you want it.
+% \def\dsp{\def\baselinestretch{2.0}\large\normalsize}
+% \dsp
+
+% If the Grad. Division insists that the first paragraph of a section
+% be indented (like the others), then include this line:
+% \usepackage{indentfirst}
+
+%%%%%%%%%%%%%%%%%%
+% If you want to use "sections" to partition your thesis
+% un-comment the following:
+%
+% \counterwithout{section}{chapter}
+% \setsecnumdepth{subsubsection}
+% \def\sectionmark#1{\markboth{#1}{#1}}
+% \def\subsectionmark#1{\markboth{#1}{#1}}
+% \renewcommand{\thesection}{\arabic{section}}
+% \renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+% \makeatletter
+% \let\l@subsection\l@section
+% \let\l@section\l@chapter
+% \makeatother
+%
+% \renewcommand{\thetable}{\arabic{table}}
+% \renewcommand{\thefigure}{\arabic{figure}}
+%
+%%%%%%%%%%%%%%%%%%
+
+
+%% Stuff from https://github.com/suchow/Dissertate
+
+% The following line would print the thesis in a postscript font
+
+% \usepackage{natbib}
+% \def\bibpreamble{\protect\addcontentsline{toc}{chapter}{Bibliography}}
+
+\setcounter{tocdepth}{1} % Print the chapter and sections to the toc
+% controls depth of table of contents (toc): 0 = chapter, 1 = section, 2 = subsection
+
+\usepackage[url=false,isbn=false,doi=false]{biblatex}
+
+\prelimpages
+
+%% from thesisdown
+% To pass between YAML and LaTeX the dollar signs are added by CII
+\Title{National Oil Companies as International Investors}
+\Author{David J. Tingle}
+\Year{2019}
+\Program{Department of Government}
+\Chair{Erik Voeten}{}{Department of Government}
+\Signature{}
+\Signature{}
+\Signature{}
+
+% commands and environments needed by pandoc snippets
+% extracted from the output of `pandoc -s`
+%% Make R markdown code chunks work
+\usepackage{array}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+\usepackage{color}
+\usepackage{fancyvrb}
+\DefineShortVerb[commandchars=\\\{\}]{\|}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+\newcommand{\RegionMarkerTok}[1]{{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\NormalTok}[1]{{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+\definecolor{gtownblue}{RGB}{1,30,65}
+\definecolor{gtownblue2}{RGB}{0,34,105}
+\definecolor{gtowngray}{RGB}{134,120,117}
+
+
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex,
+              colorlinks=true,
+              linkcolor=gtownblue2]{hyperref}
+\else
+  \usepackage[unicode=true,
+              colorlinks=true,
+              linkcolor=gtownblue2]{hyperref}
+\fi
+\hypersetup{breaklinks=true, pdfborder={0 0 0}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{2} %% controls section numbering, e.g. 1 or 1.2, or 1.2.3
+
+
+\begin{document}
+\titlepage
+\newpage
+\copyrightpage
+
+\setcounter{page}{-1}
+\abstract{National Oil Companies (NOCs) were initially built to give states
+control over their domestic hydrocarbon resources, but many of them have
+now acquired assets and established subsidiaries outside of their home
+state. This dissertation adresses three key questions related to this
+phenomenon. First, how does NOC internationalization vary? Second, why
+are some NOCs highly internationalized and others aren't? Third, what
+are the political consequences of NOC internationalization? In
+addressing these questions, this research sheds light on a set of
+integral but under-theorized institutions, NOCs, which are at the centre
+of contemporary state capitalism and the political economy of
+hydrocarbon resource wealth.}
+
+\acknowledgments{I have accumulated many debts in the course of researching and writing
+this dissertation.
+
+Thanks are due, firstly, to Eric Voeten for his guidance, support, and
+encouragement throughout this process. I am also grateful to the many
+other mentors in the Georgetown community and beyond: these include in
+particular George Shambaugh, Nathan Jensen, and Paasha Mahdavi, but also
+Dan Nexon, Andrew Bennett, and Dan Hopkins.
+
+I must also thank all of my colleagues who offered numerous helpful
+suggestions, stimulating conversations, and extensive support
+(intellectual, material, psychological). Chiefly -- but of course not
+exclusively -- Geoffrey Sigalet, Rebecca Lissner, Adam Mount, Mohit
+Grover, and Noel Anderson played important roles at key points in this
+project's development. I am very fortunate to have had you all as
+friends and colleagues.
+
+My family has been extremely supportive throughout the process, whether
+or not they believed it would ever be finished. It wouldn't have been,
+except that I am blessed with a wonderful spouse. Kelly, your patience,
+encouragement, unflagging support throughout my time researching and
+writing made the difference. Thank you.}
+
+\dedication{\begin{center}To Kelly, Emma, and Claire.\end{center}}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\textpages
+
+
+\chapter*{Introduction to this
+Dissertation}\label{introduction-to-this-dissertation}
+\addcontentsline{toc}{chapter}{Introduction to this Dissertation}
+
+This section gives a 1,000 ft. overview of the dissertation as a whole.
+It has two key objectives. First, it is designed to provide a ``coles
+notes'' for the dissertation, clearly stating both the key questions and
+findings for all three substantive chapters. Second, should establish as
+clearly as possible how this dissertation addresses problems at the core
+of international political economy -- that is, it needs to establish
+disciplinary fit.
+
+\chapter{What is NOC Internationalization?}\label{paper1}
+
+\section{Introduction}\label{intro01}
+
+In December of 2014, the Russian government engaged a drastic interest
+rate hike in the hopes of defending the ruble. There are a number of
+reasons for the Russian currency's precipitous decline in recent months
+--- these include the stock market cost of military adventurism in
+Ukraine and the general decline in oil prices. The drop in the ruble's
+value in mid-December, however, has been linked by observers to an
+``opaque deal involving the central bank and the state-controlled oil
+company, Rosneft''" (Kramer,
+\protect\hyperlink{ref-kramer_russias_2014}{2014}). The oil company,
+\emph{The New York Times} goes on to report, ``had been clamoring for
+months for a government bailout to refinance debt the company ran up
+while making acquisitions when oil prices were high.''
+
+\chapter{Why do some NOCs go global?}\label{paper2}
+
+\section{Introduction}\label{intro02}
+
+Nigeria and Angola are the two largest oil producers in Africa, and
+their NOCs (NNPC and Sonangol, respectively) are two of the most
+important domestic economic institutions. Both countries have
+significant levels of international investment into their oil sectors.
+Both experienced devastating civil conflict until early in the 21st
+century. Nigeria has a much larger population and economy; Angola
+performs better, comparatively speaking, on indexes that measure
+corruption and investment risk.
+
+\chapter*{Colophon}\label{colophon}
+\addcontentsline{toc}{chapter}{Colophon}
+
+This document is set in \href{https://github.com/georgd/EB-Garamond}{EB
+Garamond}, \href{https://github.com/adobe-fonts/source-code-pro/}{Source
+Code Pro} and \href{http://www.latofonts.com/lato-free-fonts/}{Lato}.
+The body text is set at 11pt with \(\familydefault\).
+
+It was written in R Markdown and \(\LaTeX\), and rendered into PDF (and
+HTML) using \href{https://github.com/benmarwick/huskydown}{huskydown}
+and \href{https://github.com/rstudio/bookdown}{bookdown}. It was typeset
+using the XeTeX typesetting system. The TeX template used to ensure that
+this document meets the submission standards of the institution is
+heavily indebted to the Georgetown University \(\LaTeX\) template and
+the University of Washington \(\LaTeX\) template, and to Ben Marwick's
+heavy lifting in the \texttt{huskydown} package.
+
+This version of the thesis was generated on 2019-08-28 15:08:28.
+
+\backmatter
+
+\chapter*{References}\label{references}
+\addcontentsline{toc}{chapter}{References}
+
+\markboth{References}{References}
+
+\noindent
+
+\setlength{\parindent}{-0.20in} \setlength{\leftskip}{0.20in}
+\setlength{\parskip}{8pt}
+
+\hypertarget{refs}{}
+\hypertarget{ref-kramer_russias_2014}{}
+Kramer, A. E. (2014, December 16). Russia's Steep Rate Increase Fails to
+Stem Ruble's Decline. \emph{The New York Times}. Retrieved from
+\url{http://www.nytimes.com/2014/12/17/business/russia-ruble-interest-rates.html}
+\end{document}

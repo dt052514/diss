@@ -1,0 +1,201 @@
+---
+title: "National Oil Companies as International Investors"
+author: "David J. Tingle"
+year: "2019"
+program: "Department of Government"
+chair: "Erik Voeten"
+abstract: |
+  National Oil Companies (NOCs) were initially built to give states control over their domestic hydrocarbon resources, but many of them have now acquired assets and established subsidiaries outside of their home state. This dissertation adresses three key questions related to this phenomenon. First, how does NOC internationalization vary? Second, why are some NOCs highly internationalized and others aren't? Third, what are the political consequences of NOC internationalization? In addressing these questions, this research sheds light on a set of integral but under-theorized institutions, NOCs, which are at the centre of contemporary state capitalism and the political economy of hydrocarbon resource wealth.
+acknowledgments: |
+  I have accumulated many debts in the course of researching and writing this dissertation.
+  
+  Thanks are due, firstly, to Eric Voeten for his guidance, support, and encouragement throughout this process. I am also grateful to the many other mentors in the Georgetown community and beyond: these include in particular George Shambaugh, Nathan Jensen, and Paasha Mahdavi, but also Dan Nexon, Andrew Bennett, and Dan Hopkins. 
+  
+  I must also thank all of my colleagues who offered numerous helpful suggestions, stimulating conversations, and extensive support (intellectual, material, psychological). Chiefly -- but of course not exclusively -- Geoffrey Sigalet, Rebecca Lissner, Adam Mount, Mohit Grover, and Noel Anderson played important roles at key points in this project's development. I am very fortunate to have had you all as friends and colleagues.
+  
+  My family has been extremely supportive throughout the process, whether or not they believed it would ever be finished. It wouldn't have been, except that I am blessed with a wonderful spouse. Kelly, your patience, encouragement, unflagging support throughout my time researching and writing made the difference. Thank you. 
+dedication: |
+  To Kelly, Emma, and Claire.
+knit: "bookdown::render_book"
+site: bookdown::bookdown_site
+output: 
+  huskydown::thesis_pdf: 
+    latex_engine: xelatex
+  bookdown::gitbook:
+  css: support/style.css
+  config:
+    sharing: null
+    toc:
+      before: |
+        <li><a href="./">SOEs as International Investors</li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+bibliography: bib/zotero_library.bib
+csl: csl/apa.csl
+lot: true
+lof: true
+space_between_paragraphs: true
+always_allow_html: yes
+link-citations: yes
+description: "A dissertation at the intersection of political economy and business studies."
+---
+
+```{r include_packages, include = FALSE}
+# This chunk ensures that the huskydown package is
+# installed and loaded. This huskydown package includes
+# the template files for the thesis.
+if(!require(devtools))
+  install.packages("devtools", repos = "http://cran.rstudio.com")
+if(!require(huskydown))
+  devtools::install_github("benmarwick/huskydown")
+library(huskydown)
+```
+
+
+```{r, eval=F}
+# To Render:
+bookdown::render_book('index.Rmd', huskydown::thesis_pdf(latex_engine = 'xelatex'))
+```
+
+# Introduction to this Dissertation {-}
+
+This section gives a 1,000 ft. overview of the dissertation as a whole. It has two key objectives. First, it is designed to provide a "coles notes" for the dissertation, clearly stating both the key questions and findings for all three substantive chapters. Second, should establish as clearly as possible how this dissertation addresses problems at the core of international political economy -- that is, it needs to establish disciplinary fit. 
+
+
+<!--chapter:end:index.Rmd-->
+
+# What is NOC Internationalization? {#paper1}
+
+## Introduction {#intro01}
+
+<!-- Word Count, August 28th: 7,545 -->
+
+```{r prelims, warning=F, message=F, echo=F}
+library(tidyverse)
+library(ggthemes)
+library(knitr)
+
+load("data/out/etl_results.RData")
+```
+
+```{r, include=F}
+options(knitr.table.format = "latex")
+```
+
+In December of 2014, the Russian government engaged a drastic interest rate hike in the hopes of defending the ruble. There are a number of reasons for the Russian currency's precipitous decline in recent months --- these include the stock market cost of military adventurism in Ukraine and the general decline in oil prices. The drop in the ruble's value in mid-December, however, has been linked by observers to an "opaque deal involving the central bank and the state-controlled oil company, Rosneft"" [@kramer_russias_2014]. The oil company, *The New York Times* goes on to report, "had been clamoring for months for a government bailout to refinance debt the company ran up while making acquisitions when oil prices were high."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--chapter:end:01-chap1.Rmd-->
+
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# Why do some NOCs go global? {#paper2}
+
+<!-- Word Count, August 28th: 3,593 -->
+
+```{r prelimschap2, warning=F, message=F, echo=F}
+library(tidyverse)
+library(ggthemes)
+library(knitr)
+
+load("data/out/etl_results.RData")
+```
+
+## Introduction {#intro02}
+
+Nigeria and Angola are the two largest oil producers in Africa, and their NOCs (NNPC and Sonangol, respectively) are two of the most important domestic economic institutions. Both countries have significant levels of international investment into their oil sectors. Both experienced devastating civil conflict until early in the 21st century. Nigeria has a much larger population and economy; Angola performs better, comparatively speaking, on indexes that measure corruption and investment risk.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--chapter:end:02-chap2.Rmd-->
+
+# Colophon {-}
+
+This document is set in [EB Garamond](https://github.com/georgd/EB-Garamond), [Source Code Pro](https://github.com/adobe-fonts/source-code-pro/) and [Lato](http://www.latofonts.com/lato-free-fonts/). The body text is set at 11pt with $\familydefault$.
+
+It was written in R Markdown and $\LaTeX$, and rendered into PDF (and HTML) using [huskydown](https://github.com/benmarwick/huskydown) and [bookdown](https://github.com/rstudio/bookdown). It was typeset using the XeTeX typesetting system. The TeX template used to ensure that this document meets the submission standards of the institution is heavily indebted to the Georgetown University $\LaTeX$ template and the University of Washington $\LaTeX$ template, and to Ben Marwick's heavy lifting in the `huskydown` package.
+
+This version of the thesis was generated on `r Sys.time()`.
+
+
+<!--chapter:end:98-colophon.Rmd-->
+
+<!--
+The bib chunk below must go last in this document according to how R Markdown renders.  More info is at http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
+-->
+
+\backmatter
+
+<!-- 
+If you'd like to change the name of the bibliography to something else,
+delete "References" and replace it.
+-->
+
+# References {-}
+<!--
+This manually sets the header for this unnumbered chapter.
+-->
+\markboth{References}{References}
+<!--
+To remove the indentation of the first entry.
+-->
+\noindent
+
+<!--
+To create a hanging indent and spacing between entries.  These three lines may need to be removed for styles that don't require the hanging indent.
+-->
+
+\setlength{\parindent}{-0.20in}
+\setlength{\leftskip}{0.20in}
+\setlength{\parskip}{8pt}
+
+
+<!--
+This is just for testing with more citations for the bibliography at the end.  Add other entries into the list here if you'd like them to appear in the bibliography even if they weren't explicitly cited in the document.
+-->
+
+---
+nocite: | 
+  @angel2000, @angel2001, @angel2002a
+...
+
+
+
+<!--chapter:end:99-references.Rmd-->
+

@@ -1,0 +1,16 @@
+base
+huskydown
+usethis
+devtools
+dplyr
+knitr
+ggplot2
+tidyverse
+tibble
+tidyr
+readr
+purrr
+stringr
+forcats
+maps
+ggthemes

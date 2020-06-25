@@ -1,0 +1,42 @@
+# What is NOC Internationalization? {#paper1}
+
+## Introduction {#intro01}
+
+<!-- Word Count, August 28th: 7,545 -->
+
+```{r prelims, warning=F, message=F, echo=F}
+library(tidyverse)
+library(ggthemes)
+library(knitr)
+
+load("data/out/etl_results.RData")
+```
+
+```{r, include=F}
+options(knitr.table.format = "latex")
+```
+
+In December of 2014, the Russian government engaged a drastic interest rate hike in the hopes of defending the ruble. There are a number of reasons for the Russian currency's precipitous decline in recent months --- these include the stock market cost of military adventurism in Ukraine and the general decline in oil prices. The drop in the ruble's value in mid-December, however, has been linked by observers to an "opaque deal involving the central bank and the state-controlled oil company, Rosneft"" [@kramer_russias_2014]. The oil company, *The New York Times* goes on to report, "had been clamoring for months for a government bailout to refinance debt the company ran up while making acquisitions when oil prices were high."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

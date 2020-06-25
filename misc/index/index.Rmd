@@ -1,0 +1,63 @@
+---
+title: "National Oil Companies as International Investors"
+author: "David J. Tingle"
+year: "2019"
+program: "Department of Government"
+chair: "Erik Voeten"
+abstract: |
+  National Oil Companies (NOCs) were initially built to give states control over their domestic hydrocarbon resources, but many of them have now acquired assets and established subsidiaries outside of their home state. This dissertation adresses three key questions related to this phenomenon. First, how does NOC internationalization vary? Second, why are some NOCs highly internationalized and others aren't? Third, what are the political consequences of NOC internationalization? In addressing these questions, this research sheds light on a set of integral but under-theorized institutions, NOCs, which are at the centre of contemporary state capitalism and the political economy of hydrocarbon resource wealth.
+acknowledgments: |
+  I have accumulated many debts in the course of researching and writing this dissertation.
+  
+  Thanks are due, firstly, to Eric Voeten for his guidance, support, and encouragement throughout this process. I am also grateful to the many other mentors in the Georgetown community and beyond: these include in particular George Shambaugh, Nathan Jensen, and Paasha Mahdavi, but also Dan Nexon, Andrew Bennett, and Dan Hopkins. 
+  
+  I must also thank all of my colleagues who offered numerous helpful suggestions, stimulating conversations, and extensive support (intellectual, material, psychological). Chiefly -- but of course not exclusively -- Geoffrey Sigalet, Rebecca Lissner, Adam Mount, Mohit Grover, and Noel Anderson played important roles at key points in this project's development. I am very fortunate to have had you all as friends and colleagues.
+  
+  My family has been extremely supportive throughout the process, whether or not they believed it would ever be finished. It wouldn't have been, except that I am blessed with a wonderful spouse. Kelly, your patience, encouragement, unflagging support throughout my time researching and writing made the difference. Thank you. 
+dedication: |
+  To Kelly, Emma, and Claire.
+knit: "bookdown::render_book"
+site: bookdown::bookdown_site
+output: 
+  huskydown::thesis_pdf: 
+    latex_engine: xelatex
+  bookdown::gitbook:
+  css: support/style.css
+  config:
+    sharing: null
+    toc:
+      before: |
+        <li><a href="./">SOEs as International Investors</li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+bibliography: bib/zotero_library.bib
+csl: csl/apa.csl
+lot: true
+lof: true
+space_between_paragraphs: true
+always_allow_html: yes
+link-citations: yes
+description: "A dissertation at the intersection of political economy and business studies."
+---
+
+```{r include_packages, include = FALSE}
+# This chunk ensures that the huskydown package is
+# installed and loaded. This huskydown package includes
+# the template files for the thesis.
+if(!require(devtools))
+  install.packages("devtools", repos = "http://cran.rstudio.com")
+if(!require(huskydown))
+  devtools::install_github("benmarwick/huskydown")
+library(huskydown)
+```
+
+
+```{r, eval=F}
+# To Render:
+bookdown::render_book('index.Rmd', huskydown::thesis_pdf(latex_engine = 'xelatex'))
+```
+
+# Introduction to this Dissertation {-}
+
+This section gives a 1,000 ft. overview of the dissertation as a whole. It has two key objectives. First, it is designed to provide a "coles notes" for the dissertation, clearly stating both the key questions and findings for all three substantive chapters. Second, should establish as clearly as possible how this dissertation addresses problems at the core of international political economy -- that is, it needs to establish disciplinary fit. 
+

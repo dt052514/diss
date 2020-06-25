@@ -1,0 +1,33 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# Why do some NOCs go global? {#paper2}
+
+<!-- Word Count, August 28th: 3,593 -->
+
+```{r prelimschap2, warning=F, message=F, echo=F}
+library(tidyverse)
+library(ggthemes)
+library(knitr)
+
+load("data/out/etl_results.RData")
+```
+
+## Introduction {#intro02}
+
+Nigeria and Angola are the two largest oil producers in Africa, and their NOCs (NNPC and Sonangol, respectively) are two of the most important domestic economic institutions. Both countries have significant levels of international investment into their oil sectors. Both experienced devastating civil conflict until early in the 21st century. Nigeria has a much larger population and economy; Angola performs better, comparatively speaking, on indexes that measure corruption and investment risk.
+
+
+
+
+
+
+
+
+
+
+
+
+
