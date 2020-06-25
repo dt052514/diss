@@ -79,8 +79,8 @@ Second, some scholars argue that NOC internationalization is a function of the d
 
 Despite the clear logic, there seems to be little support to be found for this argument in our international subsidiary network dataset. Higly global NOCs can be found at every level of domestic oil production *except* the lowest, and in fact there is some cursory evidence that substantial domestic production is positively correlated with a large international subsidiary network. Despite this, the historical importance of hydrocarbon wealth cannot be overstated, even if the correlations with outcomes of interest are not immediately revealing.
 
-```{r oil, dpi=200, warning=F, message=F, echo=F, eval=F}
-subsidiary_dataset_FINAL %>% 
+```{r oil, dpi=200, eval=F, include=F}
+subsidiaries %>% 
   filter(Type == "NOC") %>%
   mutate(shortname = case_when(shortname == "QPI" ~ "Qatar Petroleum",
                                shortname == "KPI" ~ "KPC",
@@ -235,3 +235,120 @@ All variables scaled prior to inclusion in regression results.
 **Polity2 Score**: standard measure of democracy
 
 **EIA Proven Oil Reserves**: avg. annual proven oil reserves, 1980-1990. Where there is no data in this time period, we replace null values with the proven oil reserves in 2000. 
+
+### Raw Analysis
+
+```{r, echo=TRUE}
+base <- subsidiaries %>% 
+  count(shortname, ccode, ccodecow, Status, Type) %>%
+  filter(!is.na(Status)) %>% 
+  spread(Status, n) %>% 
+  mutate(domestic = ifelse(is.na(domestic), 1, domestic)) %>% 
+  mutate(international = ifelse(is.na(international), 0, international)) %>% 
+  filter(Type == "NOC") %>%
+  group_by(ccode, ccodecow) %>%
+  summarize(domestic = mean(domestic),
+            international = mean(international)) %>%
+  left_join(., state_lookup %>% select(-country)) %>%
+  distinct() %>%
+  rename(country = country_new) %>% 
+  select(country, ccode, ccodecow, international, domestic, fh_polity2)
+```
+
+```{r, echo=T}
+df <- subsidiaries %>% 
+  count(shortname, ccode, ccodecow, Status, Type) %>%
+  filter(!is.na(Status)) %>% 
+  spread(Status, n) %>%
+  mutate(domestic = ifelse(is.na(domestic), 1, domestic)) %>% 
+  mutate(international = ifelse(is.na(international), 0, international)) %>% 
+  filter(Type == "NOC") %>%
+  group_by(ccode, ccodecow) %>%
+  summarize(domestic = mean(domestic),
+            international = mean(international)) %>%
+  left_join(., state_lookup %>% select(-country)) %>%
+  distinct() %>%
+  rename(country = country_new) %>% 
+  select(country, ccode, ccodecow, international, domestic,
+         dr_eg, bti_ep, bti_gp, bti_gi, icrg_qog, fh_polity2, 
+         wdi_oilrent, ross_oil_prod) %>%
+  left_join(.,
+            read_csv("data/raw/EIA_International_data.csv", na = c(NA, "--")) %>%
+              gather(Year, oil, 2:12) %>%
+              mutate(reserves = as.numeric(oil)) %>%
+              group_by(country) %>% 
+              summarize(reserves = mean(reserves, na.rm = T)) %>%
+              na.omit() %>%
+              mutate(country = case_when(country == "Sudan" ~ "Sudan (2012-)",
+                                         country == "Pakistan" ~ "Pakistan (1971-)",
+                                         country == "Malaysia" ~ "Malaysia (1966-)",
+                                         country == "Cote dIvoire (IvoryCoast)" ~ "Cote d'Ivoire",
+                                         country == "Congo (Kinshasa)" ~ "Congo, Democratic Republic",
+                                         TRUE ~ country)) %>%
+              right_join(., base %>% select(country, ccode)) %>%
+              left_join(., read_csv("data/raw/International_data_2000.csv", na = c(NA, "--")) %>%
+                          mutate(reserves_2000 = as.numeric(reserves_2000))) %>%
+              mutate(reserves = ifelse(is.na(reserves), reserves_2000, reserves))) %>% 
+  left_join(., readxl::read_excel("data/raw/noc_var.xlsx") %>% 
+              select(ccode, control) %>% 
+              na.omit() %>%
+              rename(ccodecow = ccode)) %>%
+  distinct() %>%
+  mutate(control = ifelse(is.na(control), 2.5, control))
+
+df$i_scaled <- scale(df$international)
+df$d_scaled <- scale(df$domestic)
+df$c_scaled <- scale(df$control)
+df$p_scaled <- scale(df$fh_polity2)
+df$r_scaled <- scale(df$reserves)
+
+```
+
+```{r basemodels, echo=T}
+broom::tidy(summary(lm(i_scaled ~ 
+             d_scaled + 
+             c_scaled + 
+             p_scaled + 
+             r_scaled, 
+           data = df)))
+
+sd(df$international)
+sd(df$domestic)
+
+summary(lm(i_scaled ~ r_scaled, data = df))
+summary(lm(i_scaled ~ p_scaled + r_scaled, data = df))
+```
+
+```{r basemodelsstorage, echo=T}
+m1 <- lm(i_scaled ~ d_scaled + c_scaled + p_scaled + r_scaled, data = df)
+m2 <- lm(i_scaled ~ p_scaled + r_scaled, data = df)
+m3 <- lm(i_scaled ~ r_scaled, data = df)
+```
+
+```{r resultstable, echo=T, results='asis'}
+stargazer::stargazer(m1, m2, m3, 
+          covariate.labels = c("Firm Capacity", 
+                               "State Control", 
+                               "Polity2 Score", 
+                               "Oil Reserves"),
+          dep.var.labels   = "Number of International Subsidiaries",
+          type='latex')
+```
+
+<br>
+Coefficient on scaled "capacity" : 0.46. Coefficient on scaled control : -0.058. Scaling: The result is that the values in the transformed variable have the same relationship to one another as in the untransformed variable, but the transformed variable has mean 0 and standard deviation 1 Interpretation: The effect of scaled capacity (d_scaled) now represents the expected change in standard deviations of internationalization for a 1-standard-deviation increase in capacity; that is, for a 1-SD increase in capacity, we expect a 0.46-SD decrease in internationalization, which we could call an effect of moderate magnitude. Substantive effects: an increase of 70 domestic subsidiaries should lead to an increase of 54 international subsidiaries, all else equal. 
+
+```{r basemodelplot, echo=T}
+broom::tidy(m1) %>%
+  dotwhisker::relabel_predictors(c(d_scaled = "Firm Capacity",
+                       c_scaled = "State Control",
+                       p_scaled = "Polity2 Score",
+                       r_scaled = "Oil Reserves")) %>% 
+  dotwhisker::dwplot() +
+  geom_vline(xintercept = 0, color = "grey30", linetype = 3) +
+  xlim(-1,1) +
+  labs(x = "Coefficient Estimate, Scaled") +
+  scale_color_grey() +
+  theme_bw() +
+  theme(legend.position = "none")
+```

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.23)  24 JUN 2020 15:57
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.23)  25 JUN 2020 00:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -336,46 +336,69 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen157
 \Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks22
+) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+(/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 147.
+(/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+)) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count286
+\FV@InFile=\read2
+\FV@TabBox=\box49
+\c@FancyVerbLine=\count287
+\FV@StepNumber=\count288
+\FV@OutFile=\write3
+) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip53
+\fb@frw=\dimen159
+\fb@frh=\dimen160
+\FrameRule=\dimen161
+\FrameSep=\dimen162
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip53
-\LTright=\skip54
-\LTpre=\skip55
-\LTpost=\skip56
-\LTchunksize=\count286
-\LTcapwidth=\dimen159
-\LT@head=\box49
-\LT@firsthead=\box50
-\LT@foot=\box51
-\LT@lastfoot=\box52
-\LT@cols=\count287
-\LT@rows=\count288
-\c@LT@tables=\count289
-\c@LT@chunks=\count290
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count289
+\LTcapwidth=\dimen163
+\LT@head=\box50
+\LT@firsthead=\box51
+\LT@foot=\box52
+\LT@lastfoot=\box53
+\LT@cols=\count290
+\LT@rows=\count291
+\c@LT@tables=\count292
+\c@LT@chunks=\count293
 \LT@p@ftn=\toks23
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen160
-\lightrulewidth=\dimen161
-\cmidrulewidth=\dimen162
-\belowrulesep=\dimen163
-\belowbottomsep=\dimen164
-\aboverulesep=\dimen165
-\abovetopsep=\dimen166
-\cmidrulesep=\dimen167
-\cmidrulekern=\dimen168
-\defaultaddspace=\dimen169
-\@cmidla=\count291
-\@cmidlb=\count292
-\@aboverulesep=\dimen170
-\@belowrulesep=\dimen171
-\@thisruleclass=\count293
-\@lastruleclass=\count294
-\@thisrulewidth=\dimen172
+\heavyrulewidth=\dimen164
+\lightrulewidth=\dimen165
+\cmidrulewidth=\dimen166
+\belowrulesep=\dimen167
+\belowbottomsep=\dimen168
+\aboverulesep=\dimen169
+\abovetopsep=\dimen170
+\cmidrulesep=\dimen171
+\cmidrulekern=\dimen172
+\defaultaddspace=\dimen173
+\@cmidla=\count294
+\@cmidlb=\count295
+\@aboverulesep=\dimen174
+\@belowrulesep=\dimen175
+\@thisruleclass=\count296
+\@lastruleclass=\count297
+\@thisrulewidth=\dimen176
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box53
-\fn@width=\dimen173
+\fn@notes=\box54
+\fn@width=\dimen177
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
@@ -386,11 +409,9 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 105.
-(/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
-))
-\Gin@req@height=\dimen174
-\Gin@req@width=\dimen175
+)
+\Gin@req@height=\dimen178
+\Gin@req@width=\dimen179
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/grffile/grffile.sty
 Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
 y)
@@ -400,70 +421,70 @@ line 40.
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count295
+\etb@tempcnta=\count298
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count296
+\lrq@indent=\count299
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count297
-\c@listtotal=\count298
-\c@listcount=\count299
-\c@liststart=\count300
-\c@liststop=\count301
-\c@citecount=\count302
-\c@citetotal=\count303
-\c@multicitecount=\count304
-\c@multicitetotal=\count305
-\c@instcount=\count306
-\c@maxnames=\count307
-\c@minnames=\count308
-\c@maxitems=\count309
-\c@minitems=\count310
-\c@citecounter=\count311
-\c@maxcitecounter=\count312
-\c@savedcitecounter=\count313
-\c@uniquelist=\count314
-\c@uniquename=\count315
-\c@refsection=\count316
-\c@refsegment=\count317
-\c@maxextratitle=\count318
-\c@maxextratitleyear=\count319
-\c@maxextraname=\count320
-\c@maxextradate=\count321
-\c@maxextraalpha=\count322
-\c@abbrvpenalty=\count323
-\c@highnamepenalty=\count324
-\c@lownamepenalty=\count325
-\c@maxparens=\count326
-\c@parenlevel=\count327
-\blx@tempcnta=\count328
-\blx@tempcntb=\count329
-\blx@tempcntc=\count330
-\blx@maxsection=\count331
-\blx@maxsegment@0=\count332
-\blx@notetype=\count333
-\blx@parenlevel@text=\count334
-\blx@parenlevel@foot=\count335
-\blx@sectionciteorder@0=\count336
-\blx@entrysetcounter=\count337
-\labelnumberwidth=\skip57
-\labelalphawidth=\skip58
-\biblabelsep=\skip59
-\bibitemsep=\skip60
-\bibnamesep=\skip61
-\bibinitsep=\skip62
-\bibparsep=\skip63
-\bibhang=\skip64
-\blx@bcfin=\read2
-\blx@bcfout=\write3
+\c@tabx@nest=\count300
+\c@listtotal=\count301
+\c@listcount=\count302
+\c@liststart=\count303
+\c@liststop=\count304
+\c@citecount=\count305
+\c@citetotal=\count306
+\c@multicitecount=\count307
+\c@multicitetotal=\count308
+\c@instcount=\count309
+\c@maxnames=\count310
+\c@minnames=\count311
+\c@maxitems=\count312
+\c@minitems=\count313
+\c@citecounter=\count314
+\c@maxcitecounter=\count315
+\c@savedcitecounter=\count316
+\c@uniquelist=\count317
+\c@uniquename=\count318
+\c@refsection=\count319
+\c@refsegment=\count320
+\c@maxextratitle=\count321
+\c@maxextratitleyear=\count322
+\c@maxextraname=\count323
+\c@maxextradate=\count324
+\c@maxextraalpha=\count325
+\c@abbrvpenalty=\count326
+\c@highnamepenalty=\count327
+\c@lownamepenalty=\count328
+\c@maxparens=\count329
+\c@parenlevel=\count330
+\blx@tempcnta=\count331
+\blx@tempcntb=\count332
+\blx@tempcntc=\count333
+\blx@maxsection=\count334
+\blx@maxsegment@0=\count335
+\blx@notetype=\count336
+\blx@parenlevel@text=\count337
+\blx@parenlevel@foot=\count338
+\blx@sectionciteorder@0=\count339
+\blx@entrysetcounter=\count340
+\labelnumberwidth=\skip58
+\labelalphawidth=\skip59
+\biblabelsep=\skip60
+\bibitemsep=\skip61
+\bibnamesep=\skip62
+\bibinitsep=\skip63
+\bibparsep=\skip64
+\bibhang=\skip65
+\blx@bcfin=\read3
+\blx@bcfout=\write4
 \blx@langwohyphens=\language3
-\c@mincomprange=\count338
-\c@maxcomprange=\count339
-\c@mincompwidth=\count340
+\c@mincomprange=\count341
+\c@maxcomprange=\count342
+\c@mincompwidth=\count343
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -473,88 +494,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'chicago-authordate.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count341
-\c@savedafterword=\count342
-\c@annotator=\count343
-\c@savedannotator=\count344
-\c@author=\count345
-\c@savedauthor=\count346
-\c@bookauthor=\count347
-\c@savedbookauthor=\count348
-\c@commentator=\count349
-\c@savedcommentator=\count350
-\c@editor=\count351
-\c@savededitor=\count352
-\c@editora=\count353
-\c@savededitora=\count354
-\c@editorb=\count355
-\c@savededitorb=\count356
-\c@editorc=\count357
-\c@savededitorc=\count358
-\c@foreword=\count359
-\c@savedforeword=\count360
-\c@holder=\count361
-\c@savedholder=\count362
-\c@introduction=\count363
-\c@savedintroduction=\count364
-\c@namea=\count365
-\c@savednamea=\count366
-\c@nameb=\count367
-\c@savednameb=\count368
-\c@namec=\count369
-\c@savednamec=\count370
-\c@translator=\count371
-\c@savedtranslator=\count372
-\c@shortauthor=\count373
-\c@savedshortauthor=\count374
-\c@shorteditor=\count375
-\c@savedshorteditor=\count376
-\c@labelname=\count377
-\c@savedlabelname=\count378
-\c@institution=\count379
-\c@savedinstitution=\count380
-\c@lista=\count381
-\c@savedlista=\count382
-\c@listb=\count383
-\c@savedlistb=\count384
-\c@listc=\count385
-\c@savedlistc=\count386
-\c@listd=\count387
-\c@savedlistd=\count388
-\c@liste=\count389
-\c@savedliste=\count390
-\c@listf=\count391
-\c@savedlistf=\count392
-\c@location=\count393
-\c@savedlocation=\count394
-\c@organization=\count395
-\c@savedorganization=\count396
-\c@origlocation=\count397
-\c@savedoriglocation=\count398
-\c@origpublisher=\count399
-\c@savedorigpublisher=\count400
-\c@publisher=\count401
-\c@savedpublisher=\count402
-\c@language=\count403
-\c@savedlanguage=\count404
-\c@origlanguage=\count405
-\c@savedoriglanguage=\count406
-\c@pageref=\count407
-\c@savedpageref=\count408
-\shorthandwidth=\skip65
-\shortjournalwidth=\skip66
-\shortserieswidth=\skip67
-\shorttitlewidth=\skip68
-\shortauthorwidth=\skip69
-\shorteditorwidth=\skip70
-\locallabelnumberwidth=\skip71
-\locallabelalphawidth=\skip72
-\localshorthandwidth=\skip73
-\localshortjournalwidth=\skip74
-\localshortserieswidth=\skip75
-\localshorttitlewidth=\skip76
-\localshortauthorwidth=\skip77
-\localshorteditorwidth=\skip78
+\c@afterword=\count344
+\c@savedafterword=\count345
+\c@annotator=\count346
+\c@savedannotator=\count347
+\c@author=\count348
+\c@savedauthor=\count349
+\c@bookauthor=\count350
+\c@savedbookauthor=\count351
+\c@commentator=\count352
+\c@savedcommentator=\count353
+\c@editor=\count354
+\c@savededitor=\count355
+\c@editora=\count356
+\c@savededitora=\count357
+\c@editorb=\count358
+\c@savededitorb=\count359
+\c@editorc=\count360
+\c@savededitorc=\count361
+\c@foreword=\count362
+\c@savedforeword=\count363
+\c@holder=\count364
+\c@savedholder=\count365
+\c@introduction=\count366
+\c@savedintroduction=\count367
+\c@namea=\count368
+\c@savednamea=\count369
+\c@nameb=\count370
+\c@savednameb=\count371
+\c@namec=\count372
+\c@savednamec=\count373
+\c@translator=\count374
+\c@savedtranslator=\count375
+\c@shortauthor=\count376
+\c@savedshortauthor=\count377
+\c@shorteditor=\count378
+\c@savedshorteditor=\count379
+\c@labelname=\count380
+\c@savedlabelname=\count381
+\c@institution=\count382
+\c@savedinstitution=\count383
+\c@lista=\count384
+\c@savedlista=\count385
+\c@listb=\count386
+\c@savedlistb=\count387
+\c@listc=\count388
+\c@savedlistc=\count389
+\c@listd=\count390
+\c@savedlistd=\count391
+\c@liste=\count392
+\c@savedliste=\count393
+\c@listf=\count394
+\c@savedlistf=\count395
+\c@location=\count396
+\c@savedlocation=\count397
+\c@organization=\count398
+\c@savedorganization=\count399
+\c@origlocation=\count400
+\c@savedoriglocation=\count401
+\c@origpublisher=\count402
+\c@savedorigpublisher=\count403
+\c@publisher=\count404
+\c@savedpublisher=\count405
+\c@language=\count406
+\c@savedlanguage=\count407
+\c@origlanguage=\count408
+\c@savedoriglanguage=\count409
+\c@pageref=\count410
+\c@savedpageref=\count411
+\shorthandwidth=\skip66
+\shortjournalwidth=\skip67
+\shortserieswidth=\skip68
+\shorttitlewidth=\skip69
+\shortauthorwidth=\skip70
+\shorteditorwidth=\skip71
+\locallabelnumberwidth=\skip72
+\locallabelalphawidth=\skip73
+\localshorthandwidth=\skip74
+\localshortjournalwidth=\skip75
+\localshortserieswidth=\skip76
+\localshorttitlewidth=\skip77
+\localshortauthorwidth=\skip78
+\localshorteditorwidth=\skip79
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/biblatex/blx-unicode.def)
@@ -576,19 +597,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count409
-\c@textcitetotal=\count410
-\c@textcitemaxnames=\count411
-\c@biburlbigbreakpenalty=\count412
-\c@biburlbreakpenalty=\count413
-\c@biburlnumpenalty=\count414
-\c@biburlucpenalty=\count415
-\c@biburllcpenalty=\count416
+\c@textcitecount=\count412
+\c@textcitetotal=\count413
+\c@textcitemaxnames=\count414
+\c@biburlbigbreakpenalty=\count415
+\c@biburlbreakpenalty=\count416
+\c@biburlnumpenalty=\count417
+\c@biburlucpenalty=\count418
+\c@biburllcpenalty=\count419
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count417
+\c@smartand=\count420
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -604,11 +625,11 @@ Package biblatex Info: ... file 'chicago-authordate.bbx' found.
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/biblatex-chicago/chicago-auth
 ordate.bbx
 File: chicago-authordate.bbx 2020/04/20 v 3.14 biblatex bibliography style
-\lositemsep=\skip79
-\cms@tempcnta=\count418
-\cms@tempcntb=\count419
-\c@bbx:relatedcount=\count420
-\c@bbx:relatedtotal=\count421
+\lositemsep=\skip80
+\cms@tempcnta=\count421
+\cms@tempcntb=\count422
+\c@bbx:relatedcount=\count423
+\c@bbx:relatedtotal=\count424
 )
 Package biblatex Info: Trying to load citation style 'chicago-authordate'...
 Package biblatex Info: ... file 'chicago-authordate.cbx' found.
@@ -646,44 +667,37 @@ File: biblatex.cfg
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen176
-\ar@mcellbox=\box54
-\extrarowheight=\dimen177
+\col@sep=\dimen180
+\ar@mcellbox=\box55
+\extrarowheight=\dimen181
 \NC@list=\toks24
-\extratabsurround=\skip80
-\backup@length=\skip81
-\ar@cellbox=\box55
+\extratabsurround=\skip81
+\backup@length=\skip82
+\ar@cellbox=\box56
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip82
-\multirow@cntb=\count422
-\multirow@dima=\skip83
-\bigstrutjot=\dimen178
+\multirow@colwidth=\skip83
+\multirow@cntb=\count425
+\multirow@dima=\skip84
+\bigstrutjot=\dimen182
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen179
-\WF@size=\dimen180
-\c@WF@wrappedlines=\count423
-\WF@box=\box56
+\wrapoverhang=\dimen183
+\WF@size=\dimen184
+\c@WF@wrappedlines=\count426
+\WF@box=\box57
 \WF@everypar=\toks25
 Package: wrapfig 2003/01/31  v 3.6
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count424
+\c@float@type=\count427
 \float@exts=\toks26
-\float@box=\box57
+\float@box=\box58
 \@float@everytoks=\toks27
-\@floatcapt=\box58
+\@floatcapt=\box59
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-(/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
-(/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: xetex.def on input line 147.
-)
 \everycr=\toks28
-\minrowclearance=\skip84
+\minrowclearance=\skip85
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/graphics/lscape.sty
@@ -695,38 +709,38 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box59
-\sift@deathcycles=\count425
-\@vwid@loff=\dimen181
-\@vwid@roff=\dimen182
+\@vwid@box=\box60
+\sift@deathcycles=\count428
+\@vwid@loff=\dimen185
+\@vwid@roff=\dimen186
 )
-\c@taburow=\count426
-\tabu@nbcols=\count427
-\tabu@cnt=\count428
-\tabu@Xcol=\count429
-\tabu@alloc=\count430
-\tabu@nested=\count431
-\tabu@target=\dimen183
-\tabu@spreadtarget=\dimen184
-\tabu@naturalX=\dimen185
-\tabucolX=\dimen186
-\tabu@Xsum=\dimen187
-\extrarowdepth=\dimen188
-\abovetabulinesep=\dimen189
-\belowtabulinesep=\dimen190
-\tabustrutrule=\dimen191
+\c@taburow=\count429
+\tabu@nbcols=\count430
+\tabu@cnt=\count431
+\tabu@Xcol=\count432
+\tabu@alloc=\count433
+\tabu@nested=\count434
+\tabu@target=\dimen187
+\tabu@spreadtarget=\dimen188
+\tabu@naturalX=\dimen189
+\tabucolX=\dimen190
+\tabu@Xsum=\dimen191
+\extrarowdepth=\dimen192
+\abovetabulinesep=\dimen193
+\belowtabulinesep=\dimen194
+\tabustrutrule=\dimen195
 \tabu@thebody=\toks29
 \tabu@footnotes=\toks30
-\tabu@box=\box60
-\tabu@arstrutbox=\box61
-\tabu@hleads=\box62
-\tabu@vleads=\box63
-\tabu@cellskip=\skip85
+\tabu@box=\box61
+\tabu@arstrutbox=\box62
+\tabu@hleads=\box63
+\tabu@vleads=\box64
+\tabu@cellskip=\skip86
 )
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/threeparttable/threeparttable
 .sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box64
+\@tempboxb=\box65
 )
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/threeparttablex/threeparttabl
 ex.sty
@@ -736,22 +750,22 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\TPTL@width=\skip86
+\TPTL@width=\skip87
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box65
-\UL@hyphenbox=\box66
-\UL@skip=\skip87
+\UL@box=\box66
+\UL@hyphenbox=\box67
+\UL@skip=\skip88
 \UL@hook=\toks31
-\UL@height=\dimen192
-\UL@pe=\count432
-\UL@pixel=\dimen193
-\ULC@box=\box67
+\UL@height=\dimen196
+\UL@pe=\count435
+\UL@pixel=\dimen197
+\ULC@box=\box68
 Package: ulem 2019/11/18
-\ULdepth=\dimen194
+\ULdepth=\dimen198
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen195
-\c@nlinenum=\count433
+\rotheadsize=\dimen199
+\c@nlinenum=\count436
 \TeXr@lab=\toks32
 ) (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -769,45 +783,45 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-\@quotelevel=\count434
-\@quotereset=\count435
+\@quotelevel=\count437
+\@quotereset=\count438
 (./dissertation.aux)
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 125.
-LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 165.
+LaTeX Font Info:    ... okay on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 125.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 125.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 125.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 125.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 125.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 125.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 165.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 125.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 165.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -836,7 +850,7 @@ pt=math;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 125.
+(Font)              scaled to size 10.95pt on input line 165.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -876,18 +890,18 @@ pt=math;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 125.
+(Font)              scaled to size 10.95pt on input line 165.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 125.
+(Font)              `operators' in the math version `normal' on input line 165.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 125.
+ line 165.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 125.
+(Font)              `operators' in the math version `bold' on input line 165.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 125.
+t line 165.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -975,15 +989,15 @@ t=math;language=dflt;mapping=tex-text;"
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 125.
+(Font)              `symbols' in the math version `normal' on input line 165.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 125.
+t line 165.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 125.
+(Font)              `symbols' in the math version `bold' on input line 165.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 125.
+t line 165.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -1054,18 +1068,18 @@ pt=math;language=dflt;mapping=tex-text;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-25.
+65.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 125.
+t line 165.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 125
+(Font)              `largesymbols' in the math version `bold' on input line 165
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 125.
-\AtBeginShipoutBox=\box68
-Package hyperref Info: Link coloring OFF on input line 125.
+t line 165.
+\AtBeginShipoutBox=\box69
+Package hyperref Info: Link coloring OFF on input line 165.
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1075,14 +1089,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ng.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count436
+\c@section@level=\count439
 )
-LaTeX Info: Redefining \ref on input line 125.
-LaTeX Info: Redefining \pageref on input line 125.
-LaTeX Info: Redefining \nameref on input line 125.
+LaTeX Info: Redefining \ref on input line 165.
+LaTeX Info: Redefining \pageref on input line 165.
+LaTeX Info: Redefining \nameref on input line 165.
 (./dissertation.out) (./dissertation.out)
-\@outlinefile=\write4
-\openout4 = `dissertation.out'.
+\@outlinefile=\write5
+\openout5 = `dissertation.out'.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1130,42 +1144,42 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Input encoding 'utf8' specified.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
-\openout3 = `dissertation-blx.bib'.
+\openout4 = `dissertation-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'dissertation.bbl' found.
 (./dissertation.bbl)
-Package biblatex Info: Reference section=0 on input line 125.
-Package biblatex Info: Reference segment=0 on input line 125.
+Package biblatex Info: Reference section=0 on input line 165.
+Package biblatex Info: Reference segment=0 on input line 165.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 127.
+(Font)              scaled to size 12.0pt on input line 167.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 127.
+(Font)              scaled to size 8.0pt on input line 167.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 127.
+(Font)              scaled to size 6.0pt on input line 167.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-27.
+67.
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0011pt on input line 127.
+(Font)              scaled to size 12.0011pt on input line 167.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00073pt on input line 127.
+(Font)              scaled to size 8.00073pt on input line 167.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 127.
+(Font)              scaled to size 6.00055pt on input line 167.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 127.
+(Font)              scaled to size 11.99872pt on input line 167.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 127.
+(Font)              scaled to size 7.99915pt on input line 167.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 127.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 127
+(Font)              scaled to size 5.99936pt on input line 167.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 167
 .
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 127
+LaTeX Font Info:    Trying to load font information for U+msb on input line 167
 .
 (/home/rstudio-user/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1192,25 +1206,25 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.47441pt on input line 7.
 )
-\tf@toc=\write5
-\openout5 = `dissertation.toc'.
+\tf@toc=\write6
+\openout6 = `dissertation.toc'.
 
 [3] [4
 
 ] [5] [6]
 Chapter 1.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 158.
+(Font)              scaled to size 9.0pt on input line 198.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 158.
+(Font)              scaled to size 5.0pt on input line 198.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00082pt on input line 158.
+(Font)              scaled to size 9.00082pt on input line 198.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 158.
+(Font)              scaled to size 5.00046pt on input line 198.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 158.
+(Font)              scaled to size 8.99904pt on input line 198.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 158.
+(Font)              scaled to size 4.99947pt on input line 198.
 [7
 
 ] [8]
@@ -1233,14 +1247,14 @@ Underfull \vbox (badness 1152) has occurred while \output is active []
 
 [21]
 
-LaTeX Warning: Reference `appa' on page 22 undefined on input line 262.
+LaTeX Warning: Reference `appa' on page 22 undefined on input line 302.
 
 [22] [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [24] [25]
 
-LaTeX Warning: Reference `fig:boxplot1' on page 26 undefined on input line 334.
+LaTeX Warning: Reference `fig:boxplot1' on page 26 undefined on input line 374.
 
 
 File: finalfig/distributions-1.pdf Graphic file (type pdf)
@@ -1249,7 +1263,7 @@ File: finalfig/distributions-1.pdf Graphic file (type pdf)
 File: finalfig/scatter01-1.pdf Graphic file (type pdf)
 <use finalfig/scatter01-1.pdf>
 
-LaTeX Warning: Reference `fig:t6map' on page 30 undefined on input line 406.
+LaTeX Warning: Reference `fig:t6map' on page 30 undefined on input line 446.
 
 File: finalfig/t6map-1.pdf Graphic file (type pdf)
 <use finalfig/t6map-1.pdf>
@@ -1271,7 +1285,7 @@ Underfull \vbox (badness 1946) has occurred while \output is active []
 
 [38] [39]
 
-LaTeX Warning: Reference `conclusion02' on page 40 undefined on input line 488.
+LaTeX Warning: Reference `conclusion02' on page 40 undefined on input line 528.
 
 
 [40] [41] [42] [43] [44] [45] [46]
@@ -1283,74 +1297,226 @@ File: fig/basic_model_2.png Graphic file (type bmp)
 [48] [49]
 File: fig/full_model.png Graphic file (type bmp)
 <fig/full_model.png>
-[50] [51] [52] [53] [54] [55] [56]
-Underfull \hbox (badness 10000) in paragraph at lines 729--731
+[50] [51]
+
+Package xcolor Warning: Incompatible color definition on input line 666.
+
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 668.
+
+Package xcolor Warning: Incompatible color definition on input line 683.
+
+
+Package xcolor Warning: Incompatible color definition on input line 683.
+
+
+Package xcolor Warning: Incompatible color definition on input line 683.
+
+[52]
+
+Package xcolor Warning: Incompatible color definition on input line 683.
+
+
+Package xcolor Warning: Incompatible color definition on input line 683.
+
+
+Package xcolor Warning: Incompatible color definition on input line 685.
+
+
+Package xcolor Warning: Incompatible color definition on input line 733.
+
+
+Package xcolor Warning: Incompatible color definition on input line 733.
+
+
+Underfull \vbox (badness 6995) detected at line 733
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 733.
+
+
+Underfull \vbox (badness 4328) has occurred while \output is active []
+
+[53]
+
+Package xcolor Warning: Incompatible color definition on input line 733.
+
+
+Package xcolor Warning: Incompatible color definition on input line 733.
+
+
+Underfull \vbox (badness 10000) detected at line 733
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 733
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 733.
+
+[54]
+
+Package xcolor Warning: Incompatible color definition on input line 733.
+
+
+Package xcolor Warning: Incompatible color definition on input line 733.
+
+
+Package xcolor Warning: Incompatible color definition on input line 735.
+
+
+Package xcolor Warning: Incompatible color definition on input line 744.
+
+
+Package xcolor Warning: Incompatible color definition on input line 744.
+
+
+Package xcolor Warning: Incompatible color definition on input line 757.
+
+
+Package xcolor Warning: Incompatible color definition on input line 761.
+
+
+Package xcolor Warning: Incompatible color definition on input line 761.
+
+
+Package xcolor Warning: Incompatible color definition on input line 767.
+
+
+Package xcolor Warning: Incompatible color definition on input line 771.
+
+
+Package xcolor Warning: Incompatible color definition on input line 771.
+
+
+Package xcolor Warning: Incompatible color definition on input line 777.
+
+[55]
+
+Package xcolor Warning: Incompatible color definition on input line 781.
+
+
+Package xcolor Warning: Incompatible color definition on input line 781.
+
+
+Package xcolor Warning: Incompatible color definition on input line 802.
+
+
+Package xcolor Warning: Incompatible color definition on input line 806.
+
+
+Package xcolor Warning: Incompatible color definition on input line 806.
+
+[56]
+
+Package xcolor Warning: Incompatible color definition on input line 828.
+
+
+Package xcolor Warning: Incompatible color definition on input line 834.
+
+
+Package xcolor Warning: Incompatible color definition on input line 834.
+
+
+Package xcolor Warning: Incompatible color definition on input line 836.
+
+
+Package xcolor Warning: Incompatible color definition on input line 846.
+
+
+Package xcolor Warning: Incompatible color definition on input line 846.
+
+
+Overfull \hbox (22.71175pt too wide) in paragraph at lines 854--887
+ [][] 
+ []
+
+[57] [58]
+
+Package xcolor Warning: Incompatible color definition on input line 891.
+
+
+Package xcolor Warning: Incompatible color definition on input line 906.
+
+
+Package xcolor Warning: Incompatible color definition on input line 906.
+
+File: finalfig/basemodelplot-1.pdf Graphic file (type pdf)
+<use finalfig/basemodelplot-1.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[59] [60] [61] [62] [63]
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1018
 [][] [][] [][][][][][][][] [] [][][][][][][][] [][] [][][][] [] [][][][][][] []
 [] [][][] [][] [][][][][][][][][] [] [][][][][] [][] [][][][][] [][] [][][] [][
 ] [][][][][] [][] [][][][][][] [][]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 738--740
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 1025--1027
 [][][][][] [] [][][][][][] [] [][][] [] [][][][][] [] [][] [] [][][][][] [] [][
 ][] [] [][][][][][][][][][][][][][][] [] [][][][][][] [] [][][][][][] []
  []
 
 
-Overfull \hbox (0.37234pt too wide) in paragraph at lines 738--740
+Overfull \hbox (0.37234pt too wide) in paragraph at lines 1025--1027
 [][][][][] [] [][][][][][][][][][][][] [] [][][][][][][][][][][][][][] [] [][][
 ][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-[57] [58]
-Underfull \hbox (badness 2922) in paragraph at lines 786--788
+[65] [66]
+Underfull \hbox (badness 2922) in paragraph at lines 1073--1075
 \TU/lmr/m/n/10.95 UK: Cambridge University Press. []$[][][][] [] [] [] [][][][]
 [] [] [][][][][][] [] [][] [] [][][][][] [] [][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 786--788
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1075
 [][][] [] [][][][][][] [] [][][][][][][][] [] [][][][][][] [] [][][][][][] [] [
 ][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 786--788
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1075
 [][][][][] [] [][][][][][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][
 ][][][] [] [][][][][][][][][][] [] [] [] [][][][][][][][][][][][] []
  []
 
-[59] [60]
-Underfull \hbox (badness 10000) in paragraph at lines 819--821
+[67] [68]
+Underfull \hbox (badness 10000) in paragraph at lines 1106--1108
 [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][][] []
  [][][][][][][][] [][] [][][][][] [][] [][][][][][][][][][] [][] [][][][][][][]
 [][] [][] [][][][] [][]
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 834--836
+Underfull \hbox (badness 2922) in paragraph at lines 1121--1123
 \TU/lmr/m/n/10.95 UK: Cambridge University Press. []$[][][][] [] [] [] [][][][]
 [] [] [][][][][][] [] [][] [] [][][][][] [] [][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 834--836
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1123
 [][][] [] [][][][][][] [] [][][][][][][][] [] [][][][][][] [] [][][][][][] [] [
 ][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 834--836
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1123
 [][][][][] [] [][][][][][][][][][][] [] [][][] [] [][][] [] [][][][][] [] [][][
 ][][][] [] [][][][][][][][][][] [] [] [] [][][][][][][][][][][][] []
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 837.
-[61] [62]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 837.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1124.
+[69]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1124.
 (./dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 837.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 837.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1124.
+
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: C2B47AFC583BE089C0A08850BA03B6CE;2377.
 
@@ -1359,15 +1525,15 @@ LaTeX Warning: There were undefined references.
 Package logreq Info: Writing requests to 'dissertation.run.xml'.
 \openout1 = `dissertation.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 837.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1124.
  ) 
 Here is how much of TeX's memory you used:
- 26755 strings out of 481269
- 491371 string characters out of 5925377
- 1194069 words of memory out of 5000000
- 43899 multiletter control sequences out of 15000+600000
- 540861 words of font info for 95 fonts, out of 8000000 for 9000
+ 27221 strings out of 481269
+ 498518 string characters out of 5925377
+ 1206067 words of memory out of 5000000
+ 44352 multiletter control sequences out of 15000+600000
+ 540877 words of font info for 97 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 53i,9n,118p,2722b,1269s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,11n,118p,2722b,1269s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (62 pages).
+Output written on dissertation.pdf (69 pages).
